@@ -426,6 +426,34 @@ resources = [
 			'footer': Markup('You properly know it'),
 			'screencapture': ''
 		},
+		{
+			'link': 'https://sethrobertson.github.io/GitFixUm/fixup.html',
+			'title': 'On undoing, fixing or removing commits',
+			'description': Markup('When you got a mess on your hands, this article might help you out'),
+			'footer': Markup('For when you mess up'),
+			'screencapture': ''
+		},
+		{
+			'link': 'https://www.internalpointers.com/post/squash-commits-into-one-git',
+			'title': 'Squashing Commits',
+			'description': Markup('A little guide on how to squash commits in Git'),
+			'footer': Markup(''),
+			'screencapture': ''
+		},
+		{
+			'link': 'https://learngitbranching.js.org/',
+			'title': 'Interactive Git Tutorial',
+			'description': Markup('Much more than branching...'),
+			'footer': Markup('Use it to learn Git'),
+			'screencapture': ''
+		},
+		{
+			'link': 'https://git-scm.com/',
+			'title': 'Git Documentation',
+			'description': Markup('Through and good documentation'),
+			'footer': Markup(''),
+			'screencapture': ''
+		},
 	)
 ]
 affiliate_products = [],
