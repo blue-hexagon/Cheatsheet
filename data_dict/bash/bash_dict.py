@@ -7,9 +7,6 @@ from markupsafe import Markup
 from static.helper_functions import Helpers
 from static.resource_collector import ResourceCollector
 
-# \{\n(.*'flag.*)(\n.*){4,12}('static.*)
-# \{\n$3\n$1\n$2
-
 helper = Helpers('bash', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'bash'
