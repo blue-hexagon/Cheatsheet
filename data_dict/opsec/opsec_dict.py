@@ -30,11 +30,11 @@ information = {
 
 }
 general_info_text = ''
-general_info_text_lead = 'Take Care of Your Threat Surface and Stay Cautious'
+general_info_text_lead = ''
 general_info_links = {}
 general_info = [
 	Markup(
-		'Facebook exemplifies the axiom that if a product is free, you aren’t the customer. You are the product<br> - Micahel Bazzell'),
+		'Facebook exemplifies the axiom that if a product is free, you aren’t the customer. You are the product.<br> - Micahel Bazzell'),
 ]
 general_info_flag = True
 see_also = [
@@ -46,7 +46,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('Phishing'),
 		'subtitle': '',
-		'description': '',
+		'description': 'Phishing is type of social engineering attack. It occurs when an attacker masquerading as a trusted entity dupes a victim into opening an email, clicking a link or sharing sensitive information ',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '06bb3ca845284f76a8b18f8f1107fd87',
@@ -300,7 +300,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('5f05651bbd7b41f386fba0989ad7af21')[0]),
 					'flag': helper.set_entry_command_string("SMS"),
 
-					'description': Markup(''),
+					'description': Markup('One time passwords through SMS; susceptible to SIM-swapping fraud.'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -311,31 +311,21 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('8f1e53be97334d59920ea9c58f08beb5')[0]),
 					'flag': helper.set_entry_command_string("Mobile Apps"),
 
-					'description': Markup(''),
+					'description': Markup('One time codes through apps like Google Authenticator for example.'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
 					'uuid': helper.get_uuid(),
 
 				},
-				{
-					'static_red': Markup(helper.set_entry_folder('502479617eda4b098e6204f0b54992fe')[0]),
-					'flag': helper.set_entry_command_string("RSA Keys"),
 
-					'description': Markup(''),
-					'example': helper.example_path(),
-					'ext_link': '',
-					'video': Markup(''),
-					'uuid': helper.get_uuid(),
-
-				},
 				{
 					'static_red': Markup(helper.set_entry_folder('ac348f697ef24c748adf1a772a0fcffa')[0]),
 					'flag': helper.set_entry_command_string("Hardware Keys"),
 
-					'description': Markup('Yubi keys for example'),
+					'description': Markup('Hardware authentication device like a YubiKey for example.'),
 					'example': helper.example_path(),
-					'ext_link': '',
+					'ext_link': 'https://en.wikipedia.org/wiki/YubiKey',
 					'video': Markup(''),
 					'uuid': helper.get_uuid(),
 
@@ -360,7 +350,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('8a6f6314d5d4493ca13bc3e2460dd725')[0]),
 					'flag': helper.set_entry_command_string("Phone"),
 
-					'description': Markup('Biometric IDs can sometimes be bypassed by a printed image. Your camera can be exploited. GPS can be exploited by webpages. Lots of scare stuff is possible'),
+					'description': Markup('Biometric IDs can sometimes be bypassed by a printed image. Your camera can be exploited. GPS location can be obtained by webpages.'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -371,7 +361,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('de41f1538ccc464cb32ded350146e986')[0]),
 					'flag': helper.set_entry_command_string("IOT"),
 
-					'description': Markup('Internet of things. This is a topic in and of itself'),
+					'description': Markup('Internet of things-devices are known for their weak, hardcoded or guessable passwords, insecure default settings, lack of secure update mechanisms and a lot more.'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -382,12 +372,21 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('9c3018287bc4464f84ec8192d42bf8a4')[0]),
 					'flag': helper.set_entry_command_string("Computer"),
 
-					'description': Markup('Computers are exceptionally prone to malware if used by people that have no clue about operational security practices'),
+					'description': Markup('Computers are exceptionally prone to malware if used by people that have no clue about common security practices'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
 					'uuid': helper.get_uuid(),
+				},
+				{
+					'static_red': Markup(helper.set_entry_folder('2c3a18d87bc2464f84ecf19fda2bf8a4')[0]),
+					'flag': helper.set_entry_command_string("BYOD"),
 
+					'description': Markup('Bring Your Own Device (BYOD) comes with a lot risks. Data-theft, lost devices and malware infiltration are perhaps the most significant.'),
+					'example': helper.example_path(),
+					'ext_link': '',
+					'video': Markup(''),
+					'uuid': helper.get_uuid(),
 				},
 
 			]
@@ -410,7 +409,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('8bcaf4f88a3140768c54b315bf1cee4c')[0]),
 					'flag': helper.set_entry_command_string("I2P"),
 
-					'description': Markup('See link'),
+					'description': Markup('The (I)nvisible (I)nternet (P)roject. A fully encrypted private network layer.'),
 					'example': helper.example_path(),
 					'ext_link': 'https://geti2p.net/en/',
 					'video': Markup(''),
@@ -432,7 +431,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('0728af5fffb648809f4e697cd26aa3c1')[0]),
 					'flag': helper.set_entry_command_string("Tor"),
 
-					'description': Markup('The Onion Router. A well-known darknet'),
+					'description': Markup('The Onion Router. Perhaps the most well known darknet'),
 					'example': helper.example_path(),
 					'ext_link': 'https://www.torproject.org/',
 					'video': Markup(''),
@@ -459,7 +458,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('8856e565f48e46489ef4edce27925708')[0]),
 					'flag': helper.set_entry_command_string("Fingerprints"),
 
-					'description': Markup(''),
+					'description': Markup('If an SSH fingerprint changes it either means the machine you are connecting to has changed their public key or that you are connecting to a different machine than what you think.'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -497,7 +496,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('78bb7dcd239f4383aa1dcb660da31a2d')[0]),
 					'flag': helper.set_entry_command_string("Logfiles"),
 
-					'description': Markup('Be aware of logfiles and 5/9/14-eyes agreeements'),
+					'description': Markup('Be aware if your provider saves logfiles or not (they might have their hand forced at some point if they do), or just assume all communication is secretly tapped.'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -546,7 +545,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('e84e763785cf4bba839fc98cc48e357f')[0]),
 					'flag': helper.set_entry_command_string("Full Disk Encryption"),
 
-					'description': Markup('A technique for encrypting a harddrive. For windows use Bitlocker. For Linux there are LUKS and Dm-cryot. It is possible on Android as well'),
+					'description': Markup('A technique for encrypting a harddrive. For windows use Bitlocker. For Linux there are LUKS and Dm-cryot. It can be done on Android as well'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -622,7 +621,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('10f02b91fb534a15946bd2e0d82464fe')[0]),
 					'flag': helper.set_entry_command_string("Cloaking"),
 
-					'description': Markup('IRC is by no means anonymous. You can however on many networks request a cloak which hides your identity'),
+					'description': Markup('An IRC hostmask cloak replaces your IP address or hostname with a cloak.'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -649,7 +648,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('f1f1597ae3874575a520427e499a36a6')[0]),
 					'flag': helper.set_entry_command_string("Tails"),
 
-					'description': Markup('A thumbdrive bootable OS with security features that runs TOR by default'),
+					'description': Markup('An encrypted thumbdrive bootable OS with security features that runs TOR by default.'),
 					'example': helper.example_path(),
 					'ext_link': 'https://tails.boum.org/',
 					'video': Markup(''),
@@ -658,9 +657,9 @@ cheatsheet = [
 				},
 				{
 					'static_red': Markup(helper.set_entry_folder('cee0f98414d24d9e910a98bf1faef263')[0]),
-					'flag': helper.set_entry_command_string("Qubes"),
+					'flag': helper.set_entry_command_string("Qubes OS"),
 
-					'description': Markup('Https://www.qubes-os.org/'),
+					'description': Markup('Security focused operating system that relies on compartmentalization (security by isolation); effectively spinning up isolated instances of VMs for each application.'),
 					'example': helper.example_path(),
 					'ext_link': 'https://www.qubes-os.org/',
 					'video': Markup(''),
@@ -670,7 +669,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('11cf85e67cf642ea96194a3885b77708')[0]),
 					'flag': helper.set_entry_command_string("Whonix"),
 
-					'description': Markup(''),
+					'description': Markup('Another security-focused Linux distribution with some neat features like keystroke anonymization, kernel modules for overwriting TCP ISNs, hardening the OS and more.'),
 					'example': helper.example_path(),
 					'ext_link': 'https://www.whonix.org/',
 					'video': Markup(''),
@@ -735,7 +734,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('1a91925d6f924ce9bf940e2dd398b40f')[0]),
 					'flag': helper.set_entry_command_string("SS7 Hijacking"),
 
-					'description': Markup('A vulnerability that allows hackers to read texts, listen to calls and track their locations. Has been used on. This vulerability have been used against populations and army-staff aswell as political targets'),
+					'description': Markup('A vulnerability that allows hackers to read texts, listen to calls and track their locations. This vulerability have been used against populations and army-staff aswell as political targets'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -768,9 +767,9 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('b60ff5d846fb4ba5a33e7904c2cf24b7')[0]),
 					'flag': helper.set_entry_command_string("Fingerprinting"),
 
-					'description': Markup('A nasty technique. Read example'),
+					'description': Markup('A nasty set of techniques to identify, track and collect information on users without their consent.'),
 					'example': helper.example_path(),
-					'ext_link': '',
+					'ext_link': 'https://en.wikipedia.org/wiki/Device_fingerprint',
 					'video': Markup(''),
 					'uuid': helper.get_uuid(),
 
@@ -779,7 +778,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('83aaedf31dc24528ba449aa225ec90ba')[0]),
 					'flag': helper.set_entry_command_string("Cookies"),
 
-					'description': Markup('Read example'),
+					'description': Markup('A small piece of data stored on an end-users computer by a web browser. Used to remember stateful information and exploited by advertising companies to track and identify users.'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -788,9 +787,9 @@ cheatsheet = [
 				},
 				{
 					'static_red': Markup(helper.set_entry_folder('edfa733af60443d398e3e9eb05a80c56')[0]),
-					'flag': helper.set_entry_command_string("Super Cookies"),
+					'flag': helper.set_entry_command_string("Zombie Cookie"),
 
-					'description': Markup('Read example'),
+					'description': Markup('A cookie that is automatically recreated after being deleted. Accomplished by storing the cookies content in multiple locations client-side as well as server-side.'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
