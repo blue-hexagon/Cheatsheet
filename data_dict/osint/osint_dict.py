@@ -356,6 +356,20 @@ resources = [
 			'footer': Markup(''),
 			'screencapture': ''
 		},
+		{
+			'link': 'http://www.shodanhq.com/',
+			'title': 'Shodan',
+			'description': Markup('Discover various online devices (IoT, thermostats, printers, cameras)'),
+			'footer': Markup(''),
+			'screencapture': ''
+		},
+		{
+			'link': 'https://haveibeenpwned.com/',
+			'title': 'Have I Been Pwned',
+			'description': Markup('Search email addresses to see if they have been involved in any known data breaches'),
+			'footer': Markup(''),
+			'screencapture': ''
+		},
 	)
 ]
 affiliate_products = [],
