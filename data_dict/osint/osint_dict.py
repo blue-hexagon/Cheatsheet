@@ -132,17 +132,6 @@ cheatsheet = [
 					'uuid': helper.get_uuid(),
 
 				},
-				{
-					'static_red': Markup(helper.set_entry_folder('7338fa0484ed48f88e6c6a7818eaaf16')[0]),
-					'flag': helper.set_entry_command_string("Pipl"),
-
-					'description': Markup(''),
-					'example': helper.example_path(),
-					'ext_link': 'https://pipl.com/',
-					'video': Markup(''),
-					'uuid': helper.get_uuid(),
-
-				},
 			]
 		}
 	},
