@@ -3122,7 +3122,7 @@ cheatsheet = [
 				},
 				{
 					'static_red': Markup(helper.set_entry_folder('d43f594603fd44e5b162bacfc612bf27')[0]),
-					'flag': Markup(helper.set_entry_command_string('&lt;&lt;WORD</kbd><br><kbd>&lt;&lt;-WORD</kbd><br><kbd>&lt;&lt;\'WORD\'</kbd><br><kbd>&lt;&lt;-\'WORD\' ')),
+					'flag': Markup(helper.set_entry_command_string('&lt;&lt;WORD</kbd><br><kbd>&lt;&lt;-WORD</kbd><br><kbd>&lt;&lt;\'WORD\'</kbd><br><kbd>&lt;&lt;-\'WORD\'')),
 
 					'description': Markup('Is used for heredocs'),
 					'example': helper.example_path(),
@@ -3397,7 +3397,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('2dfe8e1a074b40b7822db86ec6b28219')[0]),
 					'flag': helper.set_entry_command_string('case'),
 
-					'description': Markup(''),
+					'description': Markup('Used to simplify complex conditionals'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -3452,7 +3452,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('6eef0888b5ad414285f5f837afd55b51')[0]),
 					'flag': helper.set_entry_command_string('comopt'),
 
-					'description': Markup(''),
+					'description': Markup('Print or change the completion options for a command'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -3705,7 +3705,7 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('d348b6be6bc940349d3188e1cb4b3d46')[0]),
 					'flag': helper.set_entry_command_string('mapfile'),
 
-					'description': Markup(''),
+					'description': Markup('Reads lines from standard input into an indexed array'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
