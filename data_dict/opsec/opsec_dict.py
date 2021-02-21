@@ -444,7 +444,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('SSH'),
 		'subtitle': '',
-		'description': '',
+		'description': 'SSH (Secure Shell) is a protocol used for secure remote access',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '711d11b000724236b795bfb213347282',
@@ -482,7 +482,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('VPN'),
 		'subtitle': '',
-		'description': '',
+		'description': 'VPN (Virtual Private Network) provides privacy, anonymity and security to users by creating a connection to a private network across a public network like the Internet',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '7d3799e98d1a465e8cc0ca4451795c56',
@@ -507,9 +507,9 @@ cheatsheet = [
 		}
 	},
 	{
-		'heading':helper.set_folder('Storage'),
+		'heading':helper.set_folder('Disk Storage'),
 		'subtitle': '',
-		'description': '',
+		'description': 'Drive storage refers to the physical storage of information on personal computers, laptops or phones',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '6a0ad919ac3d4ed0855e05b7506a074b',
@@ -606,8 +606,8 @@ cheatsheet = [
 	},
 	{
 		'heading':helper.set_folder('IRC'),
-		'subtitle': '',
-		'description': '',
+		'subtitle': 'Internet Relay Chat',
+		'description': 'An application layer protocol that facilitates text communication through a client-server model',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '1f8506fff1e941efb24eb232542eb8b1',
@@ -665,13 +665,25 @@ cheatsheet = [
 					'video': Markup(''),
 					'uuid': helper.get_uuid(),
 
-				}, {
+				},
+				{
 					'static_red': Markup(helper.set_entry_folder('11cf85e67cf642ea96194a3885b77708')[0]),
 					'flag': helper.set_entry_command_string("Whonix"),
 
 					'description': Markup('Another security-focused Linux distribution with some neat features like keystroke anonymization, kernel modules for overwriting TCP ISNs, hardening the OS and more.'),
 					'example': helper.example_path(),
 					'ext_link': 'https://www.whonix.org/',
+					'video': Markup(''),
+					'uuid': helper.get_uuid(),
+
+				},
+				{
+					'static_red': Markup(helper.set_entry_folder('82678d37193a47d4884d5d86751b897b')[0]),
+					'flag': helper.set_entry_command_string("Hardening"),
+
+					'description': Markup('OS hardening is a process of reducing the attack surface by various means such as closing down ports, containerization/virtualization of applications, IPS/IDS, relevant kernel modules and much more.'),
+					'example': helper.example_path(),
+					'ext_link': '',
 					'video': Markup(''),
 					'uuid': helper.get_uuid(),
 
@@ -697,6 +709,17 @@ cheatsheet = [
 					'flag': helper.set_entry_command_string("Burner Email"),
 
 					'description': Markup('Multiple services exists to create one-time email addresses. Beware these are not usable by other people aswell. You can setup forwarding to an intermediate email address which then forwards to your regular email address'),
+					'example': helper.example_path(),
+					'ext_link': '',
+					'video': Markup(''),
+					'uuid': helper.get_uuid(),
+
+				},
+				{
+					'static_red': Markup(helper.set_entry_folder('4493e00ec0804f818edadb419efa831b')[0]),
+					'flag': helper.set_entry_command_string("Email spoofing"),
+
+					'description': Markup('Creation of email messages with forged headers that results in a forged sender address'),
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
