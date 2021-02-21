@@ -1,8 +1,8 @@
-# CheatSheet.Wtf & CheatSheet.Bible [Not released yet]
-This repository contain cheatsheets and exampels for the websites www.Cheatsheet.Wtf & www.Cheatsheet.Bible.
+# CheatSheet.Wtf
+This repository contain cheatsheets and examples for the website www.Cheatsheet.Wtf
 # Contributing
-* To contribute an example refer to the guide at www.Cheatsheet.Wtf/contribute/create/example/. Use the .md files which are converted by the server into HTML.
-* To contribute a cheatsheet on a topic you can write it as a in a similar format as shown below and I will do some regex to make the python dictionary.
+* To contribute an example refer to the guide at www.Cheatsheet.Wtf/contribute/create/example/Use the .md files which are converted by the server into HTML.
+* To contribute a cheatsheet on a topic you can write in a similar format as shown below, and I will do some regex to translate it into a python dictionary.
 ```
 Cheatsheet: HTML
 
@@ -24,5 +24,3 @@ keyword2 : explanation2
 
 and so on.
 ```
-# License
-Test
