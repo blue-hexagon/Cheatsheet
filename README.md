@@ -1,21 +1,19 @@
 # CheatSheet.Wtf
 This repository contain cheatsheets and examples for the website www.Cheatsheet.Wtf
-# Contributing
-* To contribute an example refer to the guide at www.Cheatsheet.Wtf/contribute/create/example/Use the .md files which are converted by the server into HTML.
-* To contribute a cheatsheet on a topic you can write in a similar format as shown below, and I will do some regex to translate it into a python dictionary.
+## Contributing
+### Writing Examples
+Writing an example is fast and easy: [refer to this guide](www.Cheatsheet.Wtf/contribute/create/example/).
+
+### Improving Cheatsheets
+To correct an error, misspelling or a wrong fact, you can open the project in Gitpod and write the fix.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/smokingcuke/cheatsheet)
+### Writing a Cheatsheet
+To contribute a cheatsheet on a topic, use the format below and I will do some regex to translate it. 
+Submit it in <kbd>/cheatsheet_requests/</kbd>
+
 ```
-Cheatsheet: HTML
-
-# Basic Tags
-## These tags are essential HTML tags
-<html> : Creates an HTML document
-<head> : Sets off the title & other info that isn't displaye
-<body> : Sets off the visible portion of the documen
-
-# Formatting
-## These tags are used for text content
-<p> : Creates a paragraph
-<br> : Creates a line break
+Cheatsheet: Name of Cheatsheet
 
 # Heading
 ## Subheading
@@ -24,4 +22,8 @@ keyword2 : explanation2
 
 and so on.
 ```
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/smokingcuke/cheatsheet)
+
+
+### Request a Cheatsheet
+Submit an issue.
+
