@@ -16,7 +16,6 @@ information = {
 	'subtitle': 'This site is a reference for Bootstrap',
 	'description': '',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '⚠',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'Bootstrap 4',

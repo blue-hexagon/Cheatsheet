@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for JQuery',
 	'description': 'JQuery is a popular JavaScript library used for the front-end in web applications.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'JQuery',

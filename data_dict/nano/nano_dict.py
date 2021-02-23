@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for the text editor Nano',
 	'description': 'GNU Nano, formerly known as TIP (TIP is Not Pico) is a text editor based off of the Pico text editor.\n The text editor is pretty straight compared to Vi, Vim or Emacs and is the first encountered text editor of most GNU/Linux novices.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '✔',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'Nano', [

@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for GNU Core Utils',
 	'description': 'What many would refer to as Linux CLI or maybe even Bash is a powerful toolset known as GNU core utility tools.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'Linux CLI',
@@ -1360,15 +1359,6 @@ cheatsheet = [
 	},
 ]
 resources = [
-	ResourceCollector.recieve_resources_from_dicts(
-		{
-			'link': 'https://github.com',
-			'title': 'Github',
-			'description': Markup('A collection of thousands of git-repositories from individual users'),
-			'footer': Markup('You properly know it'),
-			'screencapture': ''
-		},
-	)
 ]
 affiliate_products = [],
 # style="max-height:150px; max-width: 150px;

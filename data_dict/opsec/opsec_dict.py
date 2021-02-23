@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for Operational Security (OPSEC)',
 	'description': 'Operations Security deals with identification of critical information, analysis of threats, analysis of vulnerabilities, assessment of risks and application of appropriate OpSec measures. This page concerns itself mainly with the latter alongside preventive measuers.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'OpSec',

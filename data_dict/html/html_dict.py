@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for HTML.',
 	'description': 'HTML is a markup language used for webpages; it is the original language for designing webpages and can be (and most often is) assisted by technologies such as CSS (Cascading Style Sheets) and Javascript. It was initially released in 1993.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'HTML5',

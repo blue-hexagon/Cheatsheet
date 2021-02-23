@@ -13,9 +13,8 @@ information = {
 	'tool': 'Port Numbers',
 	'title': 'TCP/UDP Ports Cheatsheet',
 	'subtitle': 'This site is a reference for Well-known TCP/UDP Ports',
-	'description': 'Ports are sockets..',
+	'description': 'Ports are communication endpoints identified by a 16-bit port number (0-65353).',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'Port Numbers',
@@ -6426,28 +6425,9 @@ cheatsheet = [
 	},
 ]
 resources = [
-	# ResourceCollector.recieve_resources_from_dicts(
-	#     # {
-	#     #     'link': '',
-	#     #     'heading':helper.set_folder(''),
-	#     #     'description': Markup(''),
-	#     #     'footer': Markup(''),
-	#     #     'screencapture': ''
-	#     # },
-	# )
 ]
 affiliate_products = [],
-# affiliate_products = [
-#     # ResourceCollector.recieve_resources_from_dicts(
-#     #     # {
-#     #     #     'heading':helper.set_folder(''),
-#     #     #     'affiliate_link': Markup(
-#     #     #         ''),
-#     #     #     'footer': '',
-#     #     #     'description': '',
-#     #     # }
-#     # )
-# ]
+
 licensing = [
-	Markup('https://raw.githubusercontent.com/maraisr/ports-list/master/all.csv')
+Markup('<a href="https://raw.githubusercontent.com/maraisr/ports-list/master/all.csv">Ports List Source.</a>')
 ]

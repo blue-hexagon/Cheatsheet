@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for Markdown',
 	'description': 'Markdown is a lightweight markup language with plain-text-formatting syntax. It was created in 2004. Markdown, also referred to simply as md, are often used in readme files for writing messages on online-discussion forums and to create rich text in simple texteditors.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '⚠',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'Markdown',

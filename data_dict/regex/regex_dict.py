@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for Regular Expressions (RegEx)',
 	'description': 'Regular Expressions are powerful sequences of characters that define search patterns. Regular Expressions are used in search engines, text processing tools like Sed and Awk, for lexical analysis and a lot more. The concept of Regular Expressions arose around the 1950s and later saw heavy use with the introduction of UNIX text processing tools in the 1980s.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'Regular Expressions',
@@ -876,15 +875,6 @@ cheatsheet = [
 	},
 ]
 resources = [
-	ResourceCollector.recieve_resources_from_dicts(
-		{
-			'link': 'https://www.perlmonks.org/bare/?node_id=558868',
-			'title': 'Perl Monks - The craziest RegExes you ever created',
-			'description': Markup('Insane Regular Expressions'),
-			'footer': Markup('Mentioning Perl and regex in the same sentence.. You know it\'s going to get crazy'),
-			'screencapture': ''
-		},
-	)
 ]
 affiliate_products = [
 	ResourceCollector.recieve_resources_from_dicts(

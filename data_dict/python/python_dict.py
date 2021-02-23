@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for Python',
 	'description': 'Python started as a hobby project by Guido Van Rossum and was first released in 1991, as a successor to the ABC programming language. Python\'s design philosophy emphasizes code readability with its notable use of significant whitespace. It aims to help programmers write clear, logical code for small and large-scale projects. Popular frameworks include Django, Flask, Numpy, Scipy',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'Python',

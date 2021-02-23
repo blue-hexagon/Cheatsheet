@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for the text editor Vim',
 	'description': 'Vim is a contaction of Vi IMproved and is a clone of the text-editor Vi but with additions. It is a highly configurable text-editor with an initial released version seeing the world in 1991. It is mainly designed as a command-line application but also comes in a GUI version.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '✔',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'Vim', [

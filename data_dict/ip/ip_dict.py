@@ -16,7 +16,6 @@ information = {
 	'subtitle': 'This site is a reference for IPv4 and IPv6',
 	'description': 'The Internet Protocol (IP) currently resides at v4 and is moving towards v6 - and has been for decades. IP is the principal communications protocol for interconnected devices and established the Internet. IP has the tasks of delivering packets from the source to a host destination. At the current rate IPv6 will be fully implemented by 2148. The reasons for the slow gradual adoption is associated with expensive transistioning costs.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'IP',
@@ -1738,15 +1737,7 @@ cheatsheet = [
 	},
 ]
 resources = [
-	ResourceCollector.recieve_resources_from_dicts(
-		{
-			'link': 'https://github.com',
-			'title': 'Github',
-			'description': Markup('A collection of thousands of git-repositories from individual users'),
-			'footer': Markup('You properly know it'),
-			'screencapture': ''
-		},
-	)
+
 ]
 affiliate_products = [],
 licensing = [

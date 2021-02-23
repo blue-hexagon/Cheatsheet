@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for The Domain Name System (DNS)',
 	'description': '',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'Linux CLI',

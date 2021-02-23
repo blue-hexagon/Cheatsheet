@@ -16,7 +16,6 @@ information = {
 	'subtitle': 'This site is a reference for Flask',
 	'description': 'Flask is a popular micro framework written in Python and used for building web applications. It supports extensions that can add application features as if they were implemented in Flask itself.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'Flask',

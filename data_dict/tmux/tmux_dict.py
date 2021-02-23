@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for the terminal multiplexer Tmux',
 	'description': 'Tmux is a terminal multiplexer used for ...',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'Git',

@@ -13,7 +13,6 @@ information = {
 	'subtitle': 'This site is a reference for the scripting language Bash',
 	'description': 'Bash (Bourne Again Shell) is a shell language build on-top of the orignal Bourne Shell which was distributed with V7 Unix in 1979 and became the standard for writing shell scripts. Today it is primary to most Linux distributions, MacOS and it has even recently been enabled to run on Windows through something called WSL (Windows Subsystem for Linux).',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '✔',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'Bash',
@@ -3379,7 +3378,6 @@ resources = [
 			'link': 'https://en.wikipedia.org/wiki/Shellshock_(software_bug)',
 			'title': 'Shellshock',
 			'description': Markup('A group of severe privilege escalation vulnerabilities existing in the wild for about 25 years'),
-			'footer': Markup('According to Wikipedia, security companies recorded millions of attacks and probes related to the bugs in the days following the disclosure'),
 		},
 		{
 			'link': 'http://mywiki.wooledge.org/BashGuide',

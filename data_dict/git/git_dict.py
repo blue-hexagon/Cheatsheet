@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for Git',
 	'description': 'Git is a popular VCS (Versioning Control System) developed by Linus Torvalds and released in 2005. It is a distributed version-control system for tracking changes in any set of files. It was developed to allow programmers coordinating their work on source code during software development. Imagine where we would be without! Other VCS exists but Git has gained an enormous adoption since its release.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'Git',

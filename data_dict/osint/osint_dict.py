@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for Open Source Intelligence (OSINT)',
 	'description': 'Open Source Intelligence deals with information gathered from publicly available sources that can be used in an intelligence context. This can vary widely and be anything from hashes, emails, newspaper articles or geo-locations.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'OSINT',

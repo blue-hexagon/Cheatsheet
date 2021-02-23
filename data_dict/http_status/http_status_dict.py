@@ -15,7 +15,6 @@ information = {
 	'subtitle': 'This site is a reference for the HyperText-Transfer Protocol (HTTP)',
 	'description': 'HTTP is the foundation for communication on the World Wide Web. The development of the protocol was initiated by Sir Tim Berners Lee in 1989 at CERN. Three version (HTTP/1. HTTP/2 and HTTP/3) exists. HTTP/1 is no longer widespread and adoption is moving towards HTTP/3 whereas HTTP/2 is virtually supported by all browsers at this point. HTTP/3 uses UDP instead of TCP for the underlying transport protocol. HTTP/3 is enabled by default on the latest MacOS releases and can be enabled in stable versions of Chrome and Firefox.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'HTTP',

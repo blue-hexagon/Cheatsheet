@@ -16,7 +16,6 @@ information = {
 	'description': Markup(
 		'ASCII is a character encoding standard for electronic communication. The work of ASCII begun back in 1960 and the first standard was released in 1963. It is one of the <a href="https://en.wikipedia.org/wiki/Timeline_of_electrical_and_electronic_engineering#List_of_IEEE_milestones">IEEE milestones</a> and has and unfathomable breath of usecases.'),
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
-	'state': '❌',
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
 			'ASCII',
