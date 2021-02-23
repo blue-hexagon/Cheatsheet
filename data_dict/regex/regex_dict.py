@@ -57,7 +57,7 @@ cheatsheet = [
 			'data': [
 				{
 					'static_red': Markup(helper.set_entry_folder('ce45adbceaea41e0b000a4b9ae4c3811')[0]),
-					'flag': helper.set_entry_command_string("^(?:[\t ]*(?:\r?\n|\r))+"),
+					'flag': helper.set_entry_command_string('^(?:[\\t ]*(?:\\r?\\n|\\r))+'),
 					'description': Markup('Match all empty lines'),
 					'example': helper.example_path(),
 					'video': Markup(''),
