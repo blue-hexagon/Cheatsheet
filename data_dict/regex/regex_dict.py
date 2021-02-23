@@ -42,6 +42,30 @@ see_also = [
 	},
 ]
 cheatsheet = [
+{
+		'heading': helper.set_folder('Useful RegEx'),
+		'subtitle': '',
+		'description': 'Real examples of regex',
+		'columns': 'col-lg-6 col-md-12',
+		'uuid': helper.get_uuid(),
+		'static_red': '5ad5c9c7af724f208f8864ddffdb734e',
+		'content': {
+			'descriptor': [
+				'Expression',
+				'Description'
+			],
+			'data': [
+				{
+					'static_red': Markup(helper.set_entry_folder('ce45adbceaea41e0b000a4b9ae4c3811')[0]),
+					'flag': helper.set_entry_command_string("^(?:[\t ]*(?:\r?\n|\r))+"),
+					'description': Markup('Match all empty lines'),
+					'example': helper.example_path(),
+					'video': Markup(''),
+					'uuid': helper.get_uuid(),
+				},
+			]
+		}
+	},
 	{
 		'heading': helper.set_folder('Anchors'),
 		'subtitle': '',
