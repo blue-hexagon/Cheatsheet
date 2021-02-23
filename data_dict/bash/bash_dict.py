@@ -1682,14 +1682,13 @@ cheatsheet = [
 	{
 		'heading': helper.set_folder('Quoting'),
 		'subtitle': '',
-		'description': 'The following text shows characters or that need to be quoted if you want to use their literal symbols and not their special meaning.',
+		'description': 'The following text shows characters that need to be quoted if you want to use their literal symbols and not their special meaning.',
 		'warning': {
-			'Everything between "..." is taken literally, except $ (dollar) ` (backtick) and " (double-quotation).',
-			'Everything between \'...\' is taken literally, except \' (single-quote).',
-			'The characters following \ is taken literally. Use \ to escape anything in "..." or \'...\'',
+			Markup('Everything between double-quotes is taken literally, except <kbd>$&lt;alnum&gt;</kbd> (<kbd>$a</kbd>, <kbd>$1</kbd>) <kbd>`</kbd> and <kbd>"</kbd>, <kbd>\</kbd> and line-breaks.'),
+			Markup('Everything between single-quotes is taken literally, except <kbd>\'</kbd>.'),
 		},
 		'danger': {
-			'Using $ before "..." or \'...\' causes some special behavior. $"..." is the same as "..." except that locale translation is done. Likewise, $\'...\' is similar to $\'...\' except that the quoted string is processed for escape sequences.',
+			'Using a dollar sign before double-quotation or single-quotation causes some special behavior. $"..." is the same as "..." except that locale translation is done and:wq $\'...\' is similar to $\'...\' except that the quoted string is processed for escape sequences.',
 		},
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),

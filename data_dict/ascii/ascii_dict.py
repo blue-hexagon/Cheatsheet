@@ -30,13 +30,9 @@ information = {
 general_info_text = ''
 general_info_text_lead = ''
 general_info_links = {
-	# 'Control Characters': '#ControlCharacters',
-	# 'Printable Characters': '#PrintableCharacters',
-	# 'Extended ASCII Codes': '#ExtendedASCIICodes',
 }
 general_info_flag = False
 general_info = [
-	'',
 ]
 see_also = [
 	{

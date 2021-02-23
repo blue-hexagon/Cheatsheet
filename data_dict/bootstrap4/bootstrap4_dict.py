@@ -830,8 +830,8 @@ resources = [
 	ResourceCollector.recieve_resources_from_dicts(
 		{
 			'link': 'https://websitesetup.org/wp-content/uploads/2020/03/Bootstrap-Cheat-Sheet-Summary-Full.png',
-			'title': 'Cheatsheet Graphic',
-			'description': Markup('A giant printable cheatsheet'),
+			'title': 'Bootstrap Cheatsheet Graphic',
+			'description': Markup(''),
 			'footer': Markup(''),
 			'screencapture': ''
 		},

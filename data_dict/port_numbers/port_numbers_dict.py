@@ -32,7 +32,6 @@ general_info_links = {
 }
 general_info_flag = False
 general_info = [
-	'',
 ]
 see_also = [
 	{

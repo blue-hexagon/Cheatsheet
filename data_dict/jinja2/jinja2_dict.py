@@ -30,7 +30,6 @@ general_info_text = ''
 general_info_text_lead = ''
 general_info_links = {}
 general_info = [
-	'',
 ]
 general_info_flag = False
 see_also = [

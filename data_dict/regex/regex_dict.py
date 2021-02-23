@@ -42,9 +42,9 @@ see_also = [
 ]
 cheatsheet = [
 {
-		'heading': helper.set_folder('Useful RegEx'),
+		'heading': helper.set_folder('Regex Examples'),
 		'subtitle': '',
-		'description': 'Real examples of regex',
+		'description': 'Regular Expressions',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '5ad5c9c7af724f208f8864ddffdb734e',

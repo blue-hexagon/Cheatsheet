@@ -38,7 +38,6 @@ general_info_links = {
 }
 general_info_flag = False
 general_info = [
-	'',  # Markup(flask_cheatsheet.cheatsheet),
 ]
 see_also = [
 	{
