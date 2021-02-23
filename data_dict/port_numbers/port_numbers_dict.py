@@ -3,7 +3,6 @@ import pathlib
 from datetime import datetime
 
 from markupsafe import Markup
-
 from static.helper_functions import Helpers
 from static.resource_collector import ResourceCollector
 
@@ -40,13 +39,11 @@ see_also = [
 	{
 	},
 ]
-
 code_cards = [{
-
 }]
 cheatsheet = [
 	{
-		'heading':helper.set_folder('Ephemeal and Well-known'),
+		'heading': helper.set_folder('Ephemeal and Well-known'),
 		'subtitle': 'TCP/UDP',
 		'description': 'Short-lived and reserved port numbers for TCP/UDP',
 		'uuid': helper.get_uuid(),

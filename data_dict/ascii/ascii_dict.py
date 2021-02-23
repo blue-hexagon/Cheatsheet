@@ -3,7 +3,6 @@ import pathlib
 from datetime import datetime
 
 from markupsafe import Markup
-
 from static.helper_functions import Helpers
 from static.resource_collector import ResourceCollector
 
@@ -44,13 +43,11 @@ see_also = [
 	{
 	},
 ]
-
 code_cards = [{
-
 }]
 cheatsheet = [
 	{
-		'heading':helper.set_folder('ASCII Control Characters'),
+		'heading': helper.set_folder('ASCII Control Characters'),
 		'subtitle': 'Control Characters in ASCII',
 		'description': 'These characters are purely operational to control printers for example - as such they have no symbols as they are control characters (codes)',
 		'uuid': helper.get_uuid(),
@@ -110,7 +107,7 @@ cheatsheet = [
 		}
 	},
 	{
-		'heading':helper.set_folder('ASCII Printable Characters'),
+		'heading': helper.set_folder('ASCII Printable Characters'),
 		'subtitle': 'Character Codes 32-127',
 		'description': 'Codes 32-127 are common for all the different variations of ASCII. They referred to as printable characters and represent letters, digits, punctuation marks, and a few other symbols. You will find almost every character on your keyboard. Character 127 represents DEL.',
 		'uuid': helper.get_uuid(),
@@ -226,7 +223,7 @@ cheatsheet = [
 		}
 	},
 	{
-		'heading':helper.set_folder('The Extended ASCII Codes'),
+		'heading': helper.set_folder('The Extended ASCII Codes'),
 		'subtitle': 'Extended ASCII (Character Codes 128-255)',
 		'description': 'There are several different variations of the 8-bit ASCII table. The table below is according to Windows-1252 (CP-1252) which is a superset of ISO 8859-1.',
 		'uuid': helper.get_uuid(),
