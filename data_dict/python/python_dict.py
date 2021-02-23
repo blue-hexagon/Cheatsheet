@@ -56,7 +56,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('String Methods'),
 		'subtitle': '',
-		'description': '',
+		'description': 'Used to manipulate or retrieve information on strings',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '5eee9467c27e44deaec60e1a03aac120',
@@ -513,8 +513,8 @@ cheatsheet = [
 
 	{
 		'heading':helper.set_folder('Random'),
-		'subtitle': '',
-		'description': '.',
+		'subtitle': 'Use randomly generated numbers',
+		'description': '',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '25e4c6858fb04035a57a4f7e58218512',
@@ -774,7 +774,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('Numbers'),
 		'subtitle': '',
-		'description': '.',
+		'description': '',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '53f4e28546e84fd0b1f293dc4bc33f29',
@@ -934,7 +934,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('Powers and Logarithms'),
 		'subtitle': '',
-		'description': '.',
+		'description': '',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '41341efc68184d5e96a45c2cc30cc2b8',
@@ -1017,7 +1017,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('Trigonometry'),
 		'subtitle': '',
-		'description': '.',
+		'description': '',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': 'c1f18506648a4b4ab4a3626d506438c0',
@@ -1210,7 +1210,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('File Methods'),
 		'subtitle': '',
-		'description': '.',
+		'description': '',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '337264d0d09e492e8b57b7639214a953',
@@ -1380,7 +1380,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('File Attributes'),
 		'subtitle': '',
-		'description': '.',
+		'description': '',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '5efc05d1ca4b4c1cb8ad9ae68704107a',
@@ -1473,7 +1473,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('List Methods'),
 		'subtitle': '',
-		'description': '.',
+		'description': '',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': 'b61f343357d94e19938e7a9ca43d2250',
@@ -1688,7 +1688,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('Sets'),
 		'subtitle': '',
-		'description': '.',
+		'description': '',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': 'baeaa2a8c09c45dc9dff24b59e85d8a7',
@@ -1892,7 +1892,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('Dictionary Methods'),
 		'subtitle': '',
-		'description': '.',
+		'description': '',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': 'f13c8768c57c421d8d8781d412d43a34',

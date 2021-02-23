@@ -45,7 +45,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('Branch'),
 		'subtitle': 'How to use Branches',
-		'description': 'Everything starts with a branch',
+		'description': 'Branches are unique versions of your repository which are used to work on the codebase independently from other changes, e.g. a feature branch, a hotfix branch, experimental feature branch.',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '6bbc9b44071744e4bf4386a7038a8b5a',
@@ -299,7 +299,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('Tags'),
 		'subtitle': '',
-		'description': '',
+		'description': 'Tagging is used to capture a point in the commit history, such as a realease version.',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': 'fa03465c437345769f2be798f38db07f',
@@ -369,8 +369,8 @@ cheatsheet = [
 	},
 	{
 		'heading':helper.set_folder('Stashes'),
-		'subtitle': '...',
-		'description': '..',
+		'subtitle': 'Stash your changes temporarily',
+		'description': 'Stashes take your uncomitted (staged or unstaged) changes and saves them away for later use. ',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '87b26f69dd4a4f3a94307b84cfc91694',

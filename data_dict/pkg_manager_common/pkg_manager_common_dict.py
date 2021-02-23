@@ -3,7 +3,6 @@ import pathlib
 from datetime import datetime
 
 from markupsafe import Markup
-
 from static.helper_functions import Helpers
 from static.public.data_dict.pkg_manager_common import table_of_common_package_managers
 from static.resource_collector import ResourceCollector
@@ -46,12 +45,11 @@ see_also = [
 	{
 	},
 ]
-
 cheatsheet = [
 	{
-		'heading':helper.set_folder('Yum'),
+		'heading': helper.set_folder('Yum'),
 		'subtitle': 'Yum Package Manager',
-		'description': '.',
+		'description': '',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '06070c0bd3294269bcd329c87d9861de',
@@ -63,19 +61,17 @@ cheatsheet = [
 			'data': [
 				{
 					'static_red': Markup(helper.set_entry_folder('ae5629debca54de98fe4d93355a90ef4')[0]),
-					'flag': helper.set_entry_command_string(''),
-
-					'description': Markup(''),
+					'flag': helper.set_entry_command_string('yum list updates'),
+					'description': Markup('Display list of updated software and security fixes'),
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
-
 				},
 			]
 		}
 	},
 	{
-		'heading':helper.set_folder('Pacman'),
+		'heading': helper.set_folder('Pacman'),
 		'subtitle': 'Yum Package Manager',
 		'description': '.',
 		'columns': 'col-lg-6 col-md-12',
@@ -90,18 +86,16 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('637023eae1e44f09bf458096b50c51f7')[0]),
 					'flag': helper.set_entry_command_string(''),
-
 					'description': Markup(''),
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
-
 				},
 			]
 		}
 	},
 	{
-		'heading':helper.set_folder('Apt'),
+		'heading': helper.set_folder('Apt'),
 		'subtitle': 'Yum Package Manager',
 		'description': '.',
 		'columns': 'col-lg-6 col-md-12',
@@ -116,18 +110,16 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('39f779066e6d46d385b310b419a37933')[0]),
 					'flag': helper.set_entry_command_string(''),
-
 					'description': Markup(''),
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
-
 				},
 			]
 		}
 	},
 	{
-		'heading':helper.set_folder('Aptitude'),
+		'heading': helper.set_folder('Aptitude'),
 		'subtitle': 'Yum Package Manager',
 		'description': '.',
 		'columns': 'col-lg-6 col-md-12',
@@ -142,18 +134,16 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('9f9dea01192c44a4a41bc9eba0d9536f')[0]),
 					'flag': helper.set_entry_command_string(''),
-
 					'description': Markup(''),
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
-
 				},
 			]
 		}
 	},
 	{
-		'heading':helper.set_folder('RPM'),
+		'heading': helper.set_folder('RPM'),
 		'subtitle': 'Yum Package Manager',
 		'description': '.',
 		'columns': 'col-lg-6 col-md-12',
@@ -168,18 +158,16 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('8341aabf7d0141698e5afd1c25c438a9')[0]),
 					'flag': helper.set_entry_command_string(''),
-
 					'description': Markup(''),
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
-
 				},
 			]
 		}
 	},
 	{
-		'heading':helper.set_folder('DNF'),
+		'heading': helper.set_folder('DNF'),
 		'subtitle': 'Yum Package Manager',
 		'description': '.',
 		'columns': 'col-lg-6 col-md-12',
@@ -194,18 +182,16 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('165c0ef83add4f4fba376ac8a110967a')[0]),
 					'flag': helper.set_entry_command_string(''),
-
 					'description': Markup(''),
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
-
 				},
 			]
 		}
 	},
 	{
-		'heading':helper.set_folder('Zypper'),
+		'heading': helper.set_folder('Zypper'),
 		'subtitle': 'Yum Package Manager',
 		'description': '.',
 		'columns': 'col-lg-6 col-md-12',
@@ -220,18 +206,16 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('a3ed754d95e448cfb615248653024924')[0]),
 					'flag': helper.set_entry_command_string(''),
-
 					'description': Markup(''),
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
-
 				},
 			]
 		}
 	},
 	{
-		'heading':helper.set_folder('NPM'),
+		'heading': helper.set_folder('NPM'),
 		'subtitle': 'Yum Package Manager',
 		'description': '.',
 		'columns': 'col-lg-6 col-md-12',
@@ -246,18 +230,16 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('f47f6631760e4e3a95539001134abfdf')[0]),
 					'flag': helper.set_entry_command_string(''),
-
 					'description': Markup(''),
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
-
 				},
 			]
 		}
 	},
 	{
-		'heading':helper.set_folder('pip'),
+		'heading': helper.set_folder('pip'),
 		'subtitle': 'Yum Package Manager',
 		'description': '.',
 		'columns': 'col-lg-6 col-md-12',
@@ -272,18 +254,16 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('0e730f82c8c44e83aea595508800b0ee')[0]),
 					'flag': helper.set_entry_command_string(''),
-
 					'description': Markup(''),
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
-
 				},
 			]
 		}
 	},
 	{
-		'heading':helper.set_folder('PyPi'),
+		'heading': helper.set_folder('PyPi'),
 		'subtitle': 'Yum Package Manager',
 		'description': '.',
 		'columns': 'col-lg-6 col-md-12',
@@ -298,19 +278,15 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('e8f0fd201c1b4e6eb5b26e9c7fa37109')[0]),
 					'flag': helper.set_entry_command_string(''),
-
 					'description': Markup(''),
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
-
 				},
 			]
 		}
 	},
-
 ]
-
 resources = [
 	# ResourceCollector.recieve_resources_from_dicts(
 	#     {
@@ -322,7 +298,6 @@ resources = [
 	#     },
 	# )
 ]
-
 licensing = [
 	Markup('')
 ]

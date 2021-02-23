@@ -45,7 +45,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('Tools'),
 		'subtitle': '',
-		'description': '',
+		'description': 'Tools used for OSINT investigations',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '97847ac62f4b4d4197bdfa0c2e5f9ee2',
@@ -138,7 +138,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('Terms'),
 		'subtitle': '',
-		'description': '',
+		'description': 'Terms used in relation to OSINT',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '80a4d867a020436391101b05f5c8f8b9',
@@ -165,7 +165,7 @@ cheatsheet = [
 	{
 		'heading':helper.set_folder('Archived Information'),
 		'subtitle': '',
-		'description': '',
+		'description': 'Search through cached and archived content',
 		'columns': 'col-lg-6 col-md-12',
 		'uuid': helper.get_uuid(),
 		'static_red': '346d50a591714e6a844352ede8b197fa',
@@ -359,6 +359,14 @@ resources = [
 			'footer': Markup(''),
 			'screencapture': ''
 		},
+		{
+			'link': 'https://github.com/qeeqbox/social-analyzer',
+			'title': 'Social Analyzer',
+			'description': Markup('API, CLI & Web App for analyzing & finding a person\'s profile across 350+ social media websites'),
+			'footer': Markup(''),
+			'screencapture': ''
+		},
+
 	)
 ]
 affiliate_products = [],
