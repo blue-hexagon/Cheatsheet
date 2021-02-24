@@ -13,7 +13,7 @@ information = {
 	'tool': 'Port Numbers',
 	'title': 'TCP/UDP Ports Cheatsheet',
 	'subtitle': 'This site is a reference for Well-known TCP/UDP Ports',
-	'description': 'Ports are communication endpoints identified by a 16-bit port number (0-65353).',
+	'description': 'In computer networking, ports are communication endpoints identified by a 16-bit port number (0-65353). Ports are logical constructs which at the software level identifies a specific process or network service. The two most common transport protocols using ports are TCP and UDP.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(

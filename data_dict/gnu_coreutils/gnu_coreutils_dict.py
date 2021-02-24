@@ -13,7 +13,8 @@ information = {
 	'tool': 'Linux CLI',
 	'title': 'GNU/Linux CLI Cheatsheet',
 	'subtitle': 'This site is a reference for GNU Core Utils',
-	'description': 'What many would refer to as Linux CLI or maybe even Bash is a powerful toolset known as GNU core utility tools.',
+	'description': Markup('What many would refer to as Linux CLI or maybe even Bash is a powerful toolset known as GNU core utility tools which contain many basic tools such as <kbd>cat</kbd>, <kbd>ls</kbd> and <kbd>rm</kbd>. '
+	               'The GNU Coreutils was created in 2002 by merging earlier packages <samp>textutils</samp>, <samp>fileutils</samp> and <samp>shellutils</samp>.'),
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(

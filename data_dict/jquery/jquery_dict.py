@@ -13,7 +13,7 @@ information = {
 	'tool': 'JQuery',
 	'title': 'JQuery Cheatsheet',
 	'subtitle': 'This site is a reference for JQuery',
-	'description': 'JQuery is a popular JavaScript library used for the front-end in web applications.',
+	'description': 'JQuery is a popular free and open-source JavaScript library used for the front-end in web applications. It is designed to simplify HTML DOM and tree traversel and manipulation, as well as event handling, CSS animation and Ajax.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(

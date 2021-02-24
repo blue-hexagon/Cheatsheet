@@ -14,7 +14,7 @@ information = {
 	'tool': 'Bootstrap 4',
 	'title': 'Bootstrap 4 Cheatsheet',
 	'subtitle': 'This site is a reference for Bootstrap',
-	'description': '',
+	'description': 'Bootstrap is a high-level CSS framework directed at responsive frontend development. It is amongst the most starred projects at Github with more than 140k stars.',
 	'last_modified': (datetime.utcfromtimestamp(os.path.getmtime(__file__)).strftime('%d %B, %Y at %H:%M:%S')),
 	'characteristics': [
 		ResourceCollector.recieve_characteristics_from_dicts(
