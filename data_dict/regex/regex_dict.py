@@ -9,6 +9,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('regex', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'regex'
+meta = {
+	'title': 'RegEx Cheatsheet',
+	'description': '',
+	'keywords': 'regex, regular expressions, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/regularexpressions/',
+
+	'opengraph_title': 'RegEx Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/regularexpressions/',
+
+	'twitter_title': 'RegEx Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'Regular Expressions',
 	'title': 'Regular Expressions Cheatsheet',
@@ -41,7 +56,7 @@ see_also = [
 	},
 ]
 cheatsheet = [
-{
+	{
 		'heading': helper.set_folder('Regex Examples'),
 		'subtitle': '',
 		'description': 'Regular Expressions',

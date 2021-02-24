@@ -9,6 +9,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('osint', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'osint'
+meta = {
+	'title': 'OSINT Cheatsheet',
+	'description': '',
+	'keywords': 'osint, open source intelligence, sigint, humint, socmint, opsec, investigation, tools, online, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/osint/',
+
+	'opengraph_title': 'OSINT Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/osint/',
+
+	'twitter_title': 'OSINT Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'OSINT',
 	'title': 'OSINT Cheatsheet',

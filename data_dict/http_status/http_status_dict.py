@@ -9,6 +9,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('http_status', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'http_status'
+meta = {
+	'title': 'HTTP Status Codes',
+	'description': '',
+	'keywords': 'http, http2, http3, status codes, status code, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/http/',
+
+	'opengraph_title': 'HTTP Status Codes',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/http/',
+
+	'twitter_title': 'HTTP Status Codes',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'HTTP',
 	'title': 'HTTP Cheatsheet',

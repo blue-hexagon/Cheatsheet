@@ -9,6 +9,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('jquery', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'jquery'
+meta = {
+	'title': 'JQuery Cheatsheet',
+	'description': '',
+	'keywords': 'jquery, javascript, typescript, js, vanilla js, frontend, framework, toolset, cheatsheet, cheat sheet',
+	'canonical' : 'https://www.cheatsheet.wtf/jquery/',
+
+	'opengraph_title': 'JQuery Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/jquery/',
+
+	'twitter_title': 'JQuery Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'JQuery',
 	'title': 'JQuery Cheatsheet',

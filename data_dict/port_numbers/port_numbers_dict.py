@@ -9,6 +9,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('ports', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'ports'
+meta = {
+	'title': 'TCP/UDP Ports Collection',
+	'description': '',
+	'keywords': 'ports, port, portnumber, portnumbers, network ports, tcp, udp, cheatsheet, cheat sheet',
+	'canonical' : 'https://www.cheatsheet.wtf/portnumbers/',
+
+	'opengraph_title': 'TCP/UDP Ports Collection',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/portnumbers/',
+
+	'twitter_title': 'TCP/UDP Ports Collection',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'Port Numbers',
 	'title': 'TCP/UDP Ports Cheatsheet',

@@ -9,6 +9,21 @@ from static.data_dict.resource_collector import ResourceCollector
 helper = Helpers('gnu-utils', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'gnu-utils'
+meta = {
+	'title': 'DNS Cheatsheet',
+	'description': '',
+	'keywords': 'dns, domain, domain name, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/dns/',
+
+	'opengraph_title': 'DNS Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/dns/',
+
+	'twitter_title': 'DNS Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'DNS',
 	'title': 'DNS Cheatsheet',

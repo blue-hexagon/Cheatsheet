@@ -9,6 +9,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('ascii', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'ascii'
+meta = {
+	'title': 'ASCII Cheatsheet',
+	'description': 'All ASCII characters in a table. Decimal format, hex format, html entities and much more.',
+	'keywords': 'ASCII, characters, cheatsheet, cheat sheet, US-ASCII, 8-bit, html entity',
+	'canonical': 'https://www.cheatsheet.wtf/ascii/',
+
+	'opengraph_title': 'ASCII Cheatsheet',
+	'opengraph_description': 'Includes everything you need: dec, oct, hex, bin, HTML names and descriptions.',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/ascii/',
+
+	'twitter_title': 'ASCII Cheatsheet',
+	'twitter_description': 'Includes everything you need: dec, oct, hex, bin, HTML names and descriptions.',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'ASCII',
 	'title': 'ASCII Cheatsheet',

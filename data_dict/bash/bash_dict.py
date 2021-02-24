@@ -1,12 +1,29 @@
 import os
 import pathlib
 from datetime import datetime
+
 from markupsafe import Markup
 from static.helper_functions import Helpers
 from static.resource_collector import ResourceCollector
+
 helper = Helpers('bash', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'bash'
+meta = {
+	'title': 'Bash Cheatsheet',
+	'description': '',
+	'keywords': 'bash, shell, bourne shell, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/bash/',
+
+	'opengraph_title': 'Bash Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/bash/',
+
+	'twitter_title': 'Bash Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'Bash',
 	'title': 'Bash Cheatsheet',

@@ -9,6 +9,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('vim', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'vim'
+meta = {
+	'title': 'Vim Cheatsheet',
+	'description': '',
+	'keywords': 'vim, vi improved, how to exit vim, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/vim/',
+
+	'opengraph_title': 'Vim Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/vim/',
+
+	'twitter_title': 'Vim Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'Vim',
 	'title': 'Vim Cheatsheet',

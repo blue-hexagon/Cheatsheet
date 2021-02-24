@@ -10,6 +10,21 @@ script_dir = os.path.dirname(__file__)
 helper = Helpers('bootstrap4', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'v'
+meta = {
+	'title': 'Bootstrap4 Cheatsheet',
+	'description': '',
+	'keywords': 'frontend framework, css, css framework, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/bootstrap4/',
+
+	'opengraph_title': 'Bootstrap4 Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/bootstrap4/',
+
+	'twitter_title': 'Bootstrap4 Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'Bootstrap 4',
 	'title': 'Bootstrap 4 Cheatsheet',

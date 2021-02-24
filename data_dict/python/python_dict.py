@@ -9,6 +9,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('python', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'python'
+meta = {
+	'title': 'Python3 Cheatsheet',
+	'description': '',
+	'keywords': 'python2, python3, python, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/python/',
+
+	'opengraph_title': 'Python3 Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/python/',
+
+	'twitter_title': 'Python3 Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'Python',
 	'title': 'Python Cheatsheet',

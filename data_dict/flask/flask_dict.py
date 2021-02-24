@@ -3,13 +3,27 @@ import pathlib
 from datetime import datetime
 
 from markupsafe import Markup
-
 from static.helper_functions import Helpers
 from static.resource_collector import ResourceCollector
 
 helper = Helpers('flask', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'flask'
+meta = {
+	'title': 'Flask Cheatsheet',
+	'description': '',
+	'keywords': 'flask, backend, framework, python, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/flask/',
+
+	'opengraph_title': 'Flask Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/flask/',
+
+	'twitter_title': 'Flask Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'Flask',
 	'title': 'Flask Cheatsheet',
@@ -49,7 +63,7 @@ code_cards = [{
 }]
 cheatsheet = [
 	{
-		'heading':helper.set_folder('Skeleton Application'),
+		'heading': helper.set_folder('Skeleton Application'),
 		'subtitle': 'How to create a bare-bones application',
 		'description': 'This example shows you how the minimal code required to setup a functional Flask app',
 		'uuid': helper.get_uuid(),
@@ -72,7 +86,7 @@ if __name__ == '__main__':
 		],
 	},
 	{
-		'heading':helper.set_folder('Routing Basics'),
+		'heading': helper.set_folder('Routing Basics'),
 		'subtitle': 'Creating URL routes',
 		'description': '',
 		'uuid': helper.get_uuid(),
@@ -95,7 +109,7 @@ def hello(name, age):
 		],
 	},
 	{
-		'heading':helper.set_folder('Request Methods'),
+		'heading': helper.set_folder('Request Methods'),
 		'subtitle': 'Handling user requests',
 		'description': '',
 		'uuid': helper.get_uuid(),
@@ -111,7 +125,7 @@ def hello(name, age):
 		],
 	},
 	{
-		'heading':helper.set_folder('Configuration'),
+		'heading': helper.set_folder('Configuration'),
 		'subtitle': 'Setting configuration values',
 		'description': '',
 		'uuid': helper.get_uuid(),
@@ -126,7 +140,7 @@ app.config.from_envvar('ENV_VAR_NAME') # Gets the value from an environment valu
 		],
 	},
 	{
-		'heading':helper.set_folder('Templates'),
+		'heading': helper.set_folder('Templates'),
 		'subtitle': 'Using Flask+Jinja2 to render dynamic templates',
 		'description': '',
 		'uuid': helper.get_uuid(),
@@ -142,7 +156,7 @@ from flask import render_template
 		],
 	},
 	{
-		'heading':helper.set_folder('JSON Responses'),
+		'heading': helper.set_folder('JSON Responses'),
 		'subtitle': 'Returning JSON instead of HTML',
 		'description': '',
 		'uuid': helper.get_uuid(),
@@ -162,7 +176,7 @@ def returnstuff():
 		],
 	},
 	{
-		'heading':helper.set_folder('Request Data (Access)'),
+		'heading': helper.set_folder('Request Data (Access)'),
 		'subtitle': 'Accessing user data with the request object',
 		'description': '',
 		'uuid': helper.get_uuid(),
@@ -180,7 +194,7 @@ request.files['name'] # Retrieving a file
 		],
 	},
 	{
-		'heading':helper.set_folder('Redirection'),
+		'heading': helper.set_folder('Redirection'),
 		'subtitle': 'Redirecting a route in Flask',
 		'description': '',
 		'uuid': helper.get_uuid(),
@@ -202,7 +216,7 @@ def redirect_example():
 		],
 	},
 	{
-		'heading':helper.set_folder('Aborting and Errorhandling'),
+		'heading': helper.set_folder('Aborting and Errorhandling'),
 		'subtitle': 'Handling a 404 Not Found error',
 		'description': '',
 		'uuid': helper.get_uuid(),
@@ -224,7 +238,7 @@ def page_not_found(error):
 		],
 	},
 	{
-		'heading':helper.set_folder('Setting Cookies'),
+		'heading': helper.set_folder('Setting Cookies'),
 		'subtitle': '',
 		'description': '',
 		'uuid': helper.get_uuid(),
@@ -243,7 +257,7 @@ def index():
 		],
 	},
 	{
-		'heading':helper.set_folder('Sessions'),
+		'heading': helper.set_folder('Sessions'),
 		'subtitle': '',
 		'description': '',
 		'uuid': helper.get_uuid(),

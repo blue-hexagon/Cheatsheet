@@ -10,6 +10,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('ip', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'ip'
+meta = {
+	'title': 'IPv4/IPv6 Cheatsheet',
+	'description': '',
+	'keywords': 'ip, ipv4, ipv6, cidr, iana, subnet, subnetmask, nmap, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/ip/',
+
+	'opengraph_title': 'IPv4/IPv6 Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/ip/',
+
+	'twitter_title': 'IPv4/IPv6 Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'IP',
 	'title': 'IP',

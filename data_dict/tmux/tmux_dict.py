@@ -9,6 +9,21 @@ from static.data_dict.resource_collector import ResourceCollector
 helper = Helpers('tmux', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'tmux'
+meta = {
+	'title': 'Tmux Cheatsheet',
+	'description': '',
+	'keywords': 'tmux, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/tmux/',
+
+	'opengraph_title': 'Tmux Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/tmux/',
+
+	'twitter_title': 'Tmux Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'Tmux',
 	'title': 'Tmux Cheatsheet',

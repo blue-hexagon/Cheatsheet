@@ -9,6 +9,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('md', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'md'
+meta = {
+	'title': 'Markdown Cheatsheet',
+	'description': '',
+	'keywords': 'markdown, markup, md, readme.md, syntax, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/markdown/',
+
+	'opengraph_title': 'Markdown Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/markdown/',
+
+	'twitter_title': 'Markdown Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'Markdown',
 	'title': 'Markdown Cheatsheet',

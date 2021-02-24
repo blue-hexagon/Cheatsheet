@@ -9,6 +9,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('git', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'git'
+meta = {
+	'title': 'Git Cheatsheet',
+	'description': '',
+	'keywords': 'git, vcs, github, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/git/',
+
+	'opengraph_title': 'Git Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/git/',
+
+	'twitter_title': 'Git Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'Git',
 	'title': 'Git Cheatsheet',

@@ -9,6 +9,21 @@ from static.data_dict.resource_collector import ResourceCollector
 helper = Helpers('jinja', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'jinja'
+meta = {
+	'title': 'Jinja2 Cheatsheet',
+	'description': '',
+	'keywords': 'jinja, jinja2, template language, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/jinja2/',
+
+	'opengraph_title': 'Jinja2 Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/jinja2/',
+
+	'twitter_title': 'Jinja2 Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'Jinja2',
 	'title': 'Jinja2 Cheatsheet',

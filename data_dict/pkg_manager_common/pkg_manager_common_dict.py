@@ -10,6 +10,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('pkg_manager_common', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'pkg_manager_common'
+meta = {
+	'title': 'Package Managers Cheatsheet',
+	'description': '',
+	'keywords': 'package manager, yum, apt, rpm, pacman, aptitude, dnf, zypper, npm, pip, pypi, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/packagemanagement/',
+
+	'opengraph_title': 'Package Managers Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/packagemanagement/',
+
+	'twitter_title': 'Package Managers Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'Package Management',
 	'title': 'Package Management',
@@ -268,5 +283,5 @@ cheatsheet = [
 resources = [
 ]
 licensing = [
-Markup('Common Package Management Operations: <a href="https://www.volkerschatz.com/unix/linuxpack.html">See original work here.</a>')
+	Markup('Common Package Management Operations: <a href="https://www.volkerschatz.com/unix/linuxpack.html">See original work here.</a>')
 ]

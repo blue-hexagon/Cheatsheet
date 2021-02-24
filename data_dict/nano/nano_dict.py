@@ -9,6 +9,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('nano', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'nano'
+meta = {
+	'title': 'GNU Nano Cheatsheet',
+	'description': '',
+	'keywords': 'nano, tip, vi, vim, ed, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/nano/',
+
+	'opengraph_title': 'GNU Nano Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/nano/',
+
+	'twitter_title': 'GNU Nano Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'Nano',
 	'title': 'Nano Cheatsheet',

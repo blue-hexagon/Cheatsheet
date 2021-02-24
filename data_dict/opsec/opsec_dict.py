@@ -9,6 +9,21 @@ from static.resource_collector import ResourceCollector
 helper = Helpers('opsec', pathlib.Path(__file__))
 iterrator = iter(helper)
 cheatsheet_name = 'opsec'
+meta = {
+	'title': 'OpSec Cheatsheet',
+	'description': '',
+	'keywords': 'opsec, security, operational security, intelligence, cheatsheet, cheat sheet',
+	'canonical': 'https://www.cheatsheet.wtf/opsec/',
+
+	'opengraph_title': 'OpSec Cheatsheet',
+	'opengraph_description': '',
+	'opengraph_image': '',
+	'opengraph_url': 'https://www.cheatsheet.wtf/opsec/',
+
+	'twitter_title': 'OpSec Cheatsheet',
+	'twitter_description': '',
+	'twitter_image': '',
+}
 information = {
 	'tool': 'OpSec',
 	'title': 'OpSec Cheatsheet',
