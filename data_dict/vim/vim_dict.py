@@ -2344,14 +2344,14 @@ affiliate_products = [
 		{
 			'title': Markup('Vim cheatsheet stickers!'),
 			'affiliate_link': Markup(
-				'<a target="_blank" alt="Amazon affiliate product"  href="https://www.amazon.com/gp/product/B00359YK5E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00359YK5E&linkCode=as2&tag=cheatsheet0e-20&linkId=fa5b9f2e3651cdc9b22cb69b04b50ca8"><img style="max-height:150px; max-width: 150px;"  border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B00359YK5E&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=B00359YK5E" width="100px" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
+				'<a target="_blank"  href="https://www.amazon.com/gp/product/B00359YK5E/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00359YK5E&linkCode=as2&tag=cheatsheet0e-20&linkId=fa5b9f2e3651cdc9b22cb69b04b50ca8"><img alt="Amazon affiliate product" style="max-height:150px; max-width: 150px;"  border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B00359YK5E&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=B00359YK5E" width="100px" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
 			'footer': Markup('Stickers to put on your keyboard! Great tool for learning Vim'),
 			'description': '',
 		},
 		{
 			'title': Markup('Practical Vim'),
 			'affiliate_link': Markup(
-				'<a target="_blank" alt="Amazon affiliate product"  href="https://www.amazon.com/gp/product/1680501275/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1680501275&linkCode=as2&tag=cheatsheet0e-20&linkId=60e2174b375aae9b613f4f5b9d4f5050"><img style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1680501275&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=1680501275" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
+				'<a target="_blank"  href="https://www.amazon.com/gp/product/1680501275/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1680501275&linkCode=as2&tag=cheatsheet0e-20&linkId=60e2174b375aae9b613f4f5b9d4f5050"><img alt="Amazon affiliate product" style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1680501275&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=1680501275" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
 			'footer': Markup(''),
 			'description': '',
 		}

@@ -751,56 +751,56 @@ affiliate_products = [
 		{
 			'title': Markup('Extreme Privacy: What It Takes to Disappear'),
 			'affiliate_link': Markup(
-				'<a target="_blank" alt="Amazon affiliate product"  href="https://www.amazon.com/gp/product/B0898YGR58/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0898YGR58&linkCode=as2&tag=cheatsheet0e-20&linkId=fda7ae4519db3248ed0ea8cb8191befc"><img style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0898YGR58&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=B0898YGR58" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
+				'<a target="_blank" href="https://www.amazon.com/gp/product/B0898YGR58/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B0898YGR58&linkCode=as2&tag=cheatsheet0e-20&linkId=fda7ae4519db3248ed0ea8cb8191befc"><img alt="Amazon affiliate product" style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B0898YGR58&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=B0898YGR58" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
 			'footer': Markup('Written by an expert on the topic (Michael Bazzell)'),
 			'description': '',
 		},
 		{
 			'title': Markup('Smartphone/webcam Camera Blocker'),
 			'affiliate_link': Markup(
-				'<a target="_blank" alt="Amazon affiliate product"  href="https://www.amazon.com/gp/product/B083QGCFY8/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B083QGCFY8&linkCode=as2&tag=cheatsheet0e-20&linkId=710987f88ebbd41efb5af11d71cc53df"><img style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B083QGCFY8&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=B083QGCFY8" border="0" alt="" height="150"  style="border:none !important; margin:0px !important;" />'),
+				'<a target="_blank" href="https://www.amazon.com/gp/product/B083QGCFY8/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B083QGCFY8&linkCode=as2&tag=cheatsheet0e-20&linkId=710987f88ebbd41efb5af11d71cc53df"><img alt="Amazon affiliate product" style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B083QGCFY8&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=B083QGCFY8" border="0" alt="" height="150"  style="border:none !important; margin:0px !important;" />'),
 			'footer': Markup(''),
 			'description': '',
 		},
 		{
 			'title': Markup('Faraday Bag for Your Devices'),
 			'affiliate_link': Markup(
-				'<a target="_blank" alt="Amazon affiliate product"  href="https://www.amazon.com/gp/product/B08K2Q9RCK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08K2Q9RCK&linkCode=as2&tag=cheatsheet0e-20&linkId=5faf2b63b312405df92bdccb9eaa85bf"><img style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B08K2Q9RCK&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=B08K2Q9RCK" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
+				'<a target="_blank" href="https://www.amazon.com/gp/product/B08K2Q9RCK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B08K2Q9RCK&linkCode=as2&tag=cheatsheet0e-20&linkId=5faf2b63b312405df92bdccb9eaa85bf"><img alt="Amazon affiliate product" style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B08K2Q9RCK&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=B08K2Q9RCK" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
 			'footer': Markup(''),
 			'description': '',
 		},
 		{
 			'title': Markup('Yubikey 5Ci'),
 			'affiliate_link': Markup(
-				'<a target="_blank" alt="Amazon affiliate product"  href="https://www.amazon.com/gp/product/B07WGJ1DNJ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07WGJ1DNJ&linkCode=as2&tag=cheatsheet0e-20&linkId=aeb6e679106a0d92cacfb0e0a0700018"><img style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B07WGJ1DNJ&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=B07WGJ1DNJ" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
+				'<a target="_blank" href="https://www.amazon.com/gp/product/B07WGJ1DNJ/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07WGJ1DNJ&linkCode=as2&tag=cheatsheet0e-20&linkId=aeb6e679106a0d92cacfb0e0a0700018"><img alt="Amazon affiliate product" style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B07WGJ1DNJ&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=B07WGJ1DNJ" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
 			'footer': Markup(''),
 			'description': '',
 		},
 		{
 			'title': Markup('The Art of Invisibility'),
 			'affiliate_link': Markup(
-				'<a target="_blank" alt="Amazon affiliate product"  href="https://www.amazon.com/gp/product/0316380520/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0316380520&linkCode=as2&tag=cheatsheet0e-20&linkId=432e70cfe6a170c327a8c71d1a83cc12"><img style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0316380520&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=0316380520" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
+				'<a target="_blank" href="https://www.amazon.com/gp/product/0316380520/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0316380520&linkCode=as2&tag=cheatsheet0e-20&linkId=432e70cfe6a170c327a8c71d1a83cc12"><img alt="Amazon affiliate product" style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0316380520&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=0316380520" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
 			'footer': Markup('Written by Kevin Mitnick'),
 			'description': 'Details his years as FBIs most wanted hacker. An interesting read in regards of OpSec',
 		},
 		{
 			'title': Markup('Ghost in The Wires'),
 			'affiliate_link': Markup(
-				'<a target="_blank" alt="Amazon affiliate product"  href="https://www.amazon.com/gp/product/0316037729/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0316037729&linkCode=as2&tag=cheatsheet0e-20&linkId=9a0ca0214f0cda8d07959bbf514ef04b"><img  style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0316037729&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=0316037729"  height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
+				'<a target="_blank" href="https://www.amazon.com/gp/product/0316037729/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0316037729&linkCode=as2&tag=cheatsheet0e-20&linkId=9a0ca0214f0cda8d07959bbf514ef04b"><img  alt="Amazon affiliate product" style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0316037729&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=0316037729"  height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
 			'footer': Markup('Written by Kevin Mitnick'),
 			'description': 'Details his adventures as one of the most prolific phreakers',
 		},
 		{
 			'title': Markup('Phishing Dark Waters'),
 			'affiliate_link': Markup(
-				'<a target="_blank" alt="Amazon affiliate product"  href="https://www.amazon.com/gp/product/1118958470/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1118958470&linkCode=as2&tag=cheatsheet0e-20&linkId=1a3e8f70eb43fee5d4c074f75c6699aa"><img style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1118958470&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=1118958470" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
+				'<a target="_blank" href="https://www.amazon.com/gp/product/1118958470/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1118958470&linkCode=as2&tag=cheatsheet0e-20&linkId=1a3e8f70eb43fee5d4c074f75c6699aa"><img alt="Amazon affiliate product" style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1118958470&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=1118958470" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
 			'footer': Markup('Great and very interesting read about phishing'),
 			'description': '',
 		},
 		{
 			'title': Markup('Microphone blocker'),
 			'affiliate_link': Markup(
-				'<a target="_blank" alt="Amazon affiliate product"  href="https://www.amazon.com/gp/product/B07V9T14N3/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07V9T14N3&linkCode=as2&tag=cheatsheet0e-20&linkId=89cd6c2c44e83d12528d9070f778408d"><img style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B07V9T14N3&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=B07V9T14N3" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
+				'<a target="_blank" href="https://www.amazon.com/gp/product/B07V9T14N3/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07V9T14N3&linkCode=as2&tag=cheatsheet0e-20&linkId=89cd6c2c44e83d12528d9070f778408d"><img alt="Amazon affiliate product" style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B07V9T14N3&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=B07V9T14N3" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
 			'footer': Markup('Useful for important meetings'),
 			'description': '',
 		},
