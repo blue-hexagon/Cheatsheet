@@ -3443,21 +3443,21 @@ affiliate_products = [
 		{
 			'title': Markup('Bash Pocket Guide'),
 			'affiliate_link': Markup(
-				'<a target="_blank"  href="https://www.amazon.com/gp/product/1491941596/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1491941596&linkCode=as2&tag=cheatsheet0e-20&linkId=8747a5d4f92197e5fa552191d44ad4c8"><img style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1491941596&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=1491941596" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
+				'<a target="_blank" alt="Amazon affiliate product"  href="https://www.amazon.com/gp/product/1491941596/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1491941596&linkCode=as2&tag=cheatsheet0e-20&linkId=8747a5d4f92197e5fa552191d44ad4c8"><img style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1491941596&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=1491941596" height="150" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
 			'footer': Markup('Concise little reference book that has it all'),
 			'description': '',
 		},
 		{
 			'title': Markup('UNIX and Linux System Administration Handbook'),
 			'affiliate_link': Markup(
-				'<a target="_blank"  href="https://www.amazon.com/gp/product/0134277554/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134277554&linkCode=as2&tag=cheatsheet0e-20&linkId=2afebdc9ae97dd173c1bf23fc4fb5a57"><img style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0134277554&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=0134277554" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
+				'<a target="_blank"  alt="Amazon affiliate product" href="https://www.amazon.com/gp/product/0134277554/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0134277554&linkCode=as2&tag=cheatsheet0e-20&linkId=2afebdc9ae97dd173c1bf23fc4fb5a57"><img style="max-height:150px; max-width: 150px;" border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0134277554&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=0134277554" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />'),
 			'footer': Markup('Quality book. A bit pricy however'),
 			'description': '',
 		},
 		{
 			'title': Markup('Linux Command Line & Shell Scripting Bible'),
 			'affiliate_link': Markup(
-				'<a target="_blank"  href="https://www.amazon.com/gp/product/111898384X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=111898384X&linkCode=as2&tag=cheatsheet0e-20&linkId=d1d26240e70373f8913f149455fdde3f"><img style="max-height:150px; max-width: 150px;"  border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=111898384X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=111898384X" width="100px" border="0" alt="" style="border:none !important; margin:0px !important; max-width: 100px;" />'),
+				'<a target="_blank" alt="Amazon affiliate product" href="https://www.amazon.com/gp/product/111898384X/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=111898384X&linkCode=as2&tag=cheatsheet0e-20&linkId=d1d26240e70373f8913f149455fdde3f"><img style="max-height:150px; max-width: 150px;"  border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=111898384X&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=cheatsheet0e-20" ></a><img src="//ir-na.amazon-adsystem.com/e/ir?t=cheatsheet0e-20&l=am2&o=1&a=111898384X" width="100px" border="0" alt="" style="border:none !important; margin:0px !important; max-width: 100px;" />'),
 			'footer': Markup('Great for beginners. New edition is on the horizon'),
 			'description': '',
 		}
