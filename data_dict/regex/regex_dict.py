@@ -896,7 +896,7 @@ affiliate_products = [
 		{
 			'title': Markup('Regular Expressions'),
 			'affiliate_link': Markup(
-				'<a target="_blank"  href="https://www.amazon.com/gp/offer-listing/0596528124/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596528124&linkCode=am2&tag=cheatsheet01-20&linkId=abbf34a97dd5bf00034aa5376c569802"><img width="" height="150" alt="Amazon affiliate product" '
+				'<a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/gp/offer-listing/0596528124/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0596528124&linkCode=am2&tag=cheatsheet01-20&linkId=abbf34a97dd5bf00034aa5376c569802"><img width="" height="150" alt="Amazon affiliate product" '
 				'border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=0596528124&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=cheatsheet01-20" ></a>'),
 			'footer': Markup('Great addition to your library - very through book'),
 			'description': '',

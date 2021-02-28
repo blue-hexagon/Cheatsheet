@@ -2344,7 +2344,7 @@ affiliate_products = [
 		{
 			'title': Markup('Vim cheatsheet stickers!'),
 			'affiliate_link': Markup(
-				'<a target="_blank"  href="https://www.amazon.com/gp/offer-listing/B00CK2XHLU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00CK2XHLU&linkCode=am2&tag=cheatsheet01-20&linkId=f382ee11a5d23d9defca3c3e13a00eaf"><img width="192" height="150" alt="Amazon affiliate product" '
+				'<a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/gp/offer-listing/B00CK2XHLU/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00CK2XHLU&linkCode=am2&tag=cheatsheet01-20&linkId=f382ee11a5d23d9defca3c3e13a00eaf"><img width="192" height="150" alt="Amazon affiliate product" '
 				'border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B00CK2XHLU&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=cheatsheet01-20" ></a>'),
 			'footer': Markup('Stickers to put on your keyboard! Neat tool for learning Vim'),
 			'description': '',
@@ -2352,7 +2352,7 @@ affiliate_products = [
 		{
 			'title': Markup('Practical Vim'),
 			'affiliate_link': Markup(
-				'<a target="_blank"  href="https://www.amazon.com/gp/offer-listing/1680501275/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1680501275&linkCode=am2&tag=cheatsheet01-20&linkId=a109a95d37ad6f03a586f1b4ca58120b"><img width="125" height="150" alt="Amazon affiliate product" '
+				'<a target="_blank" rel="nofollow noopener" href="https://www.amazon.com/gp/offer-listing/1680501275/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1680501275&linkCode=am2&tag=cheatsheet01-20&linkId=a109a95d37ad6f03a586f1b4ca58120b"><img width="125" height="150" alt="Amazon affiliate product" '
 				'border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=1680501275&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL160_&tag=cheatsheet01-20" ></a>'),
 			'footer': Markup(''),
 			'description': '',
