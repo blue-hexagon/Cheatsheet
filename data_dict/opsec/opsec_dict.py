@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'opsec'
 meta = {
 	'title': 'OpSec Cheatsheet',
-	'description': '',
+	'description': 'Phishing · SSH · Social Engineering · Password Protection · Darknets · VPN · Tracking · International Agreements',
 	'keywords': 'opsec, security, operational security, intelligence, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/opsec/',
 
 	'opengraph_title': 'OpSec Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'Phishing · SSH · Social Engineering · Password Protection · Darknets · VPN · Tracking · International Agreements',
+	'opengraph_image': 'opengraph_opsec.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/opsec/',
 
 	'twitter_title': 'OpSec Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'Phishing · SSH · Social Engineering · Password Protection · Darknets · VPN · Tracking · International Agreements',
+	'twitter_image': 'twitter_card_opsec.png',
 }
 information = {
 	'tool': 'OpSec',

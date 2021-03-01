@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'python'
 meta = {
 	'title': 'Python3 Cheatsheet',
-	'description': '',
+	'description': 'String Methods · Random Module · File Methods · List Methods · Sets · Dictionary Methods · Math · Powers & Logarithms · Trigonometry · File Attributes · Numbers',
 	'keywords': 'python2, python3, python, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/python/',
 
-	'opengraph_title': 'Python3 Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_title': 'Python Cheatsheet',
+	'opengraph_description': 'String Methods · Random Module · File Methods · List Methods · Sets · Dictionary Methods · Math · Powers & Logarithms · Trigonometry · File Attributes · Numbers',
+	'opengraph_image': 'opengraph_python.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/python/',
 
-	'twitter_title': 'Python3 Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_title': 'Python Cheatsheet',
+	'twitter_description': 'String Methods · Random Module · File Methods · List Methods · Sets · Dictionary Methods · Math · Powers & Logarithms · Trigonometry · File Attributes · Numbers',
+	'twitter_image': 'twitter_card_python.png',
 }
 information = {
 	'tool': 'Python',

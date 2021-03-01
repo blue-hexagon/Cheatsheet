@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'jquery'
 meta = {
 	'title': 'JQuery Cheatsheet',
-	'description': '',
+	'description': 'Selectors · Ajax · Traversing · Effects · CSS Attributes · Utilities · Manipulation',
 	'keywords': 'jquery, javascript, typescript, js, vanilla js, frontend, framework, toolset, cheatsheet, cheat sheet',
 	'canonical' : 'https://www.cheatsheet.wtf/jquery/',
 
 	'opengraph_title': 'JQuery Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'Selectors · Ajax · Traversing · Effects · CSS Attributes · Utilities · Manipulation',
+	'opengraph_image': 'opengraph_jquery.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/jquery/',
 
 	'twitter_title': 'JQuery Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'Selectors · Ajax · Traversing · Effects · CSS Attributes · Utilities · Manipulation',
+	'twitter_image': 'twitter_card_jquery.png',
 }
 information = {
 	'tool': 'JQuery',

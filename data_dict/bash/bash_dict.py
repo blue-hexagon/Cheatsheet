@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'bash'
 meta = {
 	'title': 'Bash Cheatsheet',
-	'description': '',
+	'description': 'File test operators · Exit Signals · Control Signals · Special Files · Parameters · History Expansion · Globbing · Builtins',
 	'keywords': 'bash, shell, bourne shell, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/bash/',
 
 	'opengraph_title': 'Bash Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'File test operators · Exit Signals · Control Signals · Special Files · Parameters · History Expansion · Globbing · Builtins',
+	'opengraph_image': 'opengraph_bash.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/bash/',
 
 	'twitter_title': 'Bash Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'File test operators · Exit Signals · Control Signals · Special Files · Parameters · History Expansion · Globbing · Builtins',
+	'twitter_image': 'twitter_card_bash.png',
 }
 information = {
 	'tool': 'Bash',

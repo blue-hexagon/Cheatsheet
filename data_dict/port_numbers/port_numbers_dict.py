@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'ports'
 meta = {
 	'title': 'TCP/UDP Ports Collection',
-	'description': '',
+	'description': 'TCP · UDP · Well-known Ports · Ephemeal Ports',
 	'keywords': 'ports, port, portnumber, portnumbers, network ports, tcp, udp, cheatsheet, cheat sheet',
 	'canonical' : 'https://www.cheatsheet.wtf/portnumbers/',
 
 	'opengraph_title': 'TCP/UDP Ports Collection',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'TCP · UDP · Well-known Ports · Ephemeal Ports',
+	'opengraph_image': 'opengraph_portnumbers.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/portnumbers/',
 
 	'twitter_title': 'TCP/UDP Ports Collection',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'TCP · UDP · Well-known Ports · Ephemeal Ports',
+	'twitter_image': 'twitter_card_portnumbers.png',
 }
 information = {
 	'tool': 'Port Numbers',

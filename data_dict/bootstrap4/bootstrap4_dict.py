@@ -12,18 +12,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'v'
 meta = {
 	'title': 'Bootstrap4 Cheatsheet',
-	'description': '',
+	'description': 'Templates · Break Points · Colors · Buttons · Floats · Typography · Lists · Tables · Images',
 	'keywords': 'frontend framework, css, css framework, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/bootstrap4/',
 
 	'opengraph_title': 'Bootstrap4 Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'Templates · Break Points · Colors · Buttons · Floats · Typography · Lists · Tables · Images',
+	'opengraph_image': 'opengraph_bootstrap4.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/bootstrap4/',
 
 	'twitter_title': 'Bootstrap4 Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'Templates · Break Points · Colors · Buttons · Floats · Typography · Lists · Tables · Images',
+	'twitter_image': 'twitter_card_bootstrap4.png',
 }
 information = {
 	'tool': 'Bootstrap 4',

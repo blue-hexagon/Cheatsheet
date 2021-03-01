@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'osint'
 meta = {
 	'title': 'OSINT Cheatsheet',
-	'description': '',
+	'description': 'Tools · Archived Information · Search Engines · Terminology · Search Operators',
 	'keywords': 'osint, open source intelligence, sigint, humint, socmint, opsec, investigation, tools, online, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/osint/',
 
 	'opengraph_title': 'OSINT Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'Tools · Archived Information · Search Engines · Terminology · Search Operators',
+	'opengraph_image': 'opengraph_osint.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/osint/',
 
 	'twitter_title': 'OSINT Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'Tools · Archived Information · Search Engines · Terminology · Search Operators',
+	'twitter_image': 'twitter_card_osint.png',
 }
 information = {
 	'tool': 'OSINT',

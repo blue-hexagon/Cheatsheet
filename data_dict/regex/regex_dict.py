@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'regex'
 meta = {
 	'title': 'RegEx Cheatsheet',
-	'description': '',
+	'description': 'Assertions · Quantifiers · Escape Sequences · Groups & Ranges · Pattern Modifiers · String Replacement · Special Characters · Anchors · Character Classes · POSIX · PCRE · ERE · BRE',
 	'keywords': 'regex, regular expressions, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/regularexpressions/',
 
 	'opengraph_title': 'RegEx Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'Assertions · Quantifiers · Escape Sequences · Groups & Ranges · Pattern Modifiers · String Replacement · Special Characters · Anchors · Character Classes · POSIX · PCRE · ERE · BRE',
+	'opengraph_image': 'opengraph_regex.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/regularexpressions/',
 
 	'twitter_title': 'RegEx Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'Assertions · Quantifiers · Escape Sequences · Groups & Ranges · Pattern Modifiers · String Replacement · Special Characters · Anchors · Character Classes · POSIX · PCRE · ERE · BRE',
+	'twitter_image': 'twitter_card_regex.png',
 }
 information = {
 	'tool': 'Regular Expressions',

@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'vim'
 meta = {
 	'title': 'Vim Cheatsheet',
-	'description': '',
+	'description': 'Insert Mode · Visual Mode · Tabs · Cut & Paste · Marks & Positions · Registers · Exiting · Diff · Indent Text · Editing · Macros',
 	'keywords': 'vim, vi improved, how to exit vim, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/vim/',
 
 	'opengraph_title': 'Vim Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'Insert Mode · Visual Mode · Tabs · Cut & Paste · Marks & Positions · Registers · Exiting · Diff · Indent Text · Editing · Macros',
+	'opengraph_image': 'opengraph_vim.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/vim/',
 
 	'twitter_title': 'Vim Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'Insert Mode · Visual Mode · Tabs · Cut & Paste · Marks & Positions · Registers · Exiting · Diff · Indent Text · Editing · Macros',
+	'twitter_image': 'twitter_card_vim.png',
 }
 information = {
 	'tool': 'Vim',

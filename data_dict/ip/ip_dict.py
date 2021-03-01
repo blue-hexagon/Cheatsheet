@@ -12,18 +12,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'ip'
 meta = {
 	'title': 'IPv4/IPv6 Cheatsheet',
-	'description': '',
+	'description': 'CIDR · Subnetting · Subnetmasks · Ranges',
 	'keywords': 'ip, ipv4, ipv6, cidr, iana, subnet, subnetmask, nmap, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/ip/',
 
 	'opengraph_title': 'IPv4/IPv6 Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'CIDR · Subnetting · Subnetmasks · Ranges',
+	'opengraph_image': 'opengraph_ip.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/ip/',
 
 	'twitter_title': 'IPv4/IPv6 Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'CIDR · Subnetting · Subnetmasks · Ranges',
+	'twitter_image': 'twitter_card_ip.png',
 }
 information = {
 	'tool': 'IP',

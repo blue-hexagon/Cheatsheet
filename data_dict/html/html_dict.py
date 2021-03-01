@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'html'
 meta = {
 	'title': 'HTML5 Cheatsheet',
-	'description': '',
+	'description': 'Forms & Input · Images · Links · Tables · Lists · Styles & Semantics · Meta Info · Formatting',
 	'keywords': 'html, html5, markup, language, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/html5/',
 
 	'opengraph_title': 'HTML5 Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'Forms & Input · Images · Links · Tables · Lists · Styles & Semantics · Meta Info · Formatting',
+	'opengraph_image': 'opengraph_html5.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/html5/',
 
 	'twitter_title': 'HTML5 Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'Forms & Input · Images · Links · Tables · Lists · Styles & Semantics · Meta Info · Formatting',
+	'twitter_image': 'twitter_card_html5.png',
 }
 information = {
 	'tool': 'HTML5',

@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'nano'
 meta = {
 	'title': 'GNU Nano Cheatsheet',
-	'description': '',
+	'description': 'File Handling · Editing · Moving Around · Search & Replace · Deletion · Operations · Special Movement',
 	'keywords': 'nano, tip, vi, vim, ed, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/nano/',
 
 	'opengraph_title': 'GNU Nano Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'File Handling · Editing · Moving Around · Search & Replace · Deletion · Operations · Special Movement',
+	'opengraph_image': 'opengraph_nano.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/nano/',
 
 	'twitter_title': 'GNU Nano Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'File Handling · Editing · Moving Around · Search & Replace · Deletion · Operations · Special Movement',
+	'twitter_image': 'twitter_card_nano.png',
 }
 information = {
 	'tool': 'Nano',

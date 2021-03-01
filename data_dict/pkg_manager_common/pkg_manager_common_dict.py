@@ -12,18 +12,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'pkg_manager_common'
 meta = {
 	'title': 'Package Managers Cheatsheet',
-	'description': '',
+	'description': 'Apt · Pip · NPM · Zypper · Pacman · Yum · RPM · DNF',
 	'keywords': 'package manager, yum, apt, rpm, pacman, aptitude, dnf, zypper, npm, pip, pypi, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/packagemanagement/',
 
 	'opengraph_title': 'Package Managers Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'Apt · Pip · NPM · Zypper · Pacman · Yum · RPM · DNF',
+	'opengraph_image': 'opengraph_package_management.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/packagemanagement/',
 
 	'twitter_title': 'Package Managers Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'Apt · Pip · NPM · Zypper · Pacman · Yum · RPM · DNF',
+	'twitter_image': 'twitter_card_package_management.png',
 }
 information = {
 	'tool': 'Package Management',

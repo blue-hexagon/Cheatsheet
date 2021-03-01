@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'md'
 meta = {
 	'title': 'Markdown Cheatsheet',
-	'description': '',
+	'description': 'Headings · Emphasis · Links · Blockquotes · Code · Lists',
 	'keywords': 'markdown, markup, md, readme.md, syntax, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/markdown/',
 
 	'opengraph_title': 'Markdown Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'Headings · Emphasis · Links · Blockquotes · Code · Lists',
+	'opengraph_image': 'opengraph_markdown.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/markdown/',
 
 	'twitter_title': 'Markdown Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'Headings · Emphasis · Links · Blockquotes · Code · Lists',
+	'twitter_image': 'twitter_card_markdown.png',
 }
 information = {
 	'tool': 'Markdown',

@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'flask'
 meta = {
 	'title': 'Flask Cheatsheet',
-	'description': '',
+	'description': 'Skeleton App · Routing · Request Methods · Configuration Variables · Templates · Request Data · Redirection · Errorhandling · Cookies · Sessions',
 	'keywords': 'flask, backend, framework, python, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/flask/',
 
 	'opengraph_title': 'Flask Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'Skeleton App · Routing · Request Methods · Configuration Variables · Templates · Request Data · Redirection · Errorhandling · Cookies · Sessions',
+	'opengraph_image': 'opengraph_flask.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/flask/',
 
 	'twitter_title': 'Flask Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'Skeleton App · Routing · Request Methods · Configuration Variables · Templates · Request Data · Redirection · Errorhandling · Cookies · Sessions',
+	'twitter_image': 'twitter_card_flask.png',
 }
 information = {
 	'tool': 'Flask',

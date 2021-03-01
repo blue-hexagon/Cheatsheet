@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'git'
 meta = {
 	'title': 'Git Cheatsheet',
-	'description': '',
+	'description': 'Branches · Clean · Tags · Logs · Stashes',
 	'keywords': 'git, vcs, github, cheatsheet, cheat sheet',
 	'canonical': 'https://www.cheatsheet.wtf/git/',
 
 	'opengraph_title': 'Git Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'Branches · Clean · Tags · Logs · Stashes',
+	'opengraph_image': 'opengraph_git.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/git/',
 
 	'twitter_title': 'Git Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'Branches · Clean · Tags · Logs · Stashes',
+	'twitter_image': 'twitter_card_git.png',
 }
 information = {
 	'tool': 'Git',
