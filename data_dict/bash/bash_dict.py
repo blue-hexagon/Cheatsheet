@@ -13,7 +13,7 @@ meta = {
 	'title': 'Bash Cheatsheet',
 	'description': 'File test operators · Exit Signals · Control Signals · Special Files · Parameters · History Expansion · Globbing · Builtins',
 	'keywords': 'bash, shell, bourne shell, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/bash/',
+	'canonical': 'https://www.cheatsheet.wtf/Bash/',
 
 	'opengraph_title': 'Bash Cheatsheet',
 	'opengraph_description': 'File test operators · Exit Signals · Control Signals · Special Files · Parameters · History Expansion · Globbing · Builtins',

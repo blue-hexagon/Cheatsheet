@@ -13,7 +13,7 @@ meta = {
 	'title': 'Flask Cheatsheet',
 	'description': 'Skeleton App · Routing · Request Methods · Configuration Variables · Templates · Request Data · Redirection · Errorhandling · Cookies · Sessions',
 	'keywords': 'flask, backend, framework, python, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/flask/',
+	'canonical': 'https://www.cheatsheet.wtf/Flask/',
 
 	'opengraph_title': 'Flask Cheatsheet',
 	'opengraph_description': 'Skeleton App · Routing · Request Methods · Configuration Variables · Templates · Request Data · Redirection · Errorhandling · Cookies · Sessions',

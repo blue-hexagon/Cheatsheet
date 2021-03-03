@@ -14,7 +14,7 @@ meta = {
 	'title': 'Package Managers Cheatsheet',
 	'description': 'Apt · Pip · NPM · Zypper · Pacman · Yum · RPM · DNF',
 	'keywords': 'package manager, yum, apt, rpm, pacman, aptitude, dnf, zypper, npm, pip, pypi, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/packagemanagement/',
+	'canonical': 'https://www.cheatsheet.wtf/PackageManagement/',
 
 	'opengraph_title': 'Package Managers Cheatsheet',
 	'opengraph_description': 'Apt · Pip · NPM · Zypper · Pacman · Yum · RPM · DNF',

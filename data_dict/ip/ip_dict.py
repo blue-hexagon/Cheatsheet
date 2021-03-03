@@ -14,7 +14,7 @@ meta = {
 	'title': 'IPv4/IPv6 Cheatsheet',
 	'description': 'CIDR · Subnetting · Subnetmasks · Ranges',
 	'keywords': 'ip, ipv4, ipv6, cidr, iana, subnet, subnetmask, nmap, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/ip/',
+	'canonical': 'https://www.cheatsheet.wtf/IP/',
 
 	'opengraph_title': 'IPv4/IPv6 Cheatsheet',
 	'opengraph_description': 'CIDR · Subnetting · Subnetmasks · Ranges',

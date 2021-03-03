@@ -13,7 +13,7 @@ meta = {
 	'title': 'GNU Nano Cheatsheet',
 	'description': 'File Handling · Editing · Moving Around · Search & Replace · Deletion · Operations · Special Movement',
 	'keywords': 'nano, tip, vi, vim, ed, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/nano/',
+	'canonical': 'https://www.cheatsheet.wtf/Nano/',
 
 	'opengraph_title': 'GNU Nano Cheatsheet',
 	'opengraph_description': 'File Handling · Editing · Moving Around · Search & Replace · Deletion · Operations · Special Movement',

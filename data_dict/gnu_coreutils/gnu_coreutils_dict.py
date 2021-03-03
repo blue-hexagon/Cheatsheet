@@ -11,18 +11,18 @@ iterrator = iter(helper)
 cheatsheet_name = 'gnu_coreutils'
 meta = {
 	'title': 'Linux Cheatsheet',
-	'description': '',
+	'description': 'Command Invocation · File Operations · Character Operations · File Output · Disk Usage · Process Control · SELinux Context · System Context · File Operations',
 	'keywords': 'linux, bsd, gnu linux, gnu, cli, command line, command, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/linuxcli/',
+	'canonical': 'https://www.cheatsheet.wtf/LinuxCLI/',
 
 	'opengraph_title': 'Linux Cheatsheet',
-	'opengraph_description': '',
-	'opengraph_image': '',
+	'opengraph_description': 'Command Invocation · File Operations · Character Operations · File Output · Disk Usage · Process Control · SELinux Context · System Context · File Operations',
+	'opengraph_image': 'opengraph_linux.png',
 	'opengraph_url': 'https://www.cheatsheet.wtf/linuxcli/',
 
 	'twitter_title': 'Linux Cheatsheet',
-	'twitter_description': '',
-	'twitter_image': '',
+	'twitter_description': 'Command Invocation · File Operations · Character Operations · File Output · Disk Usage · Process Control · SELinux Context · System Context · File Operations',
+	'twitter_image': 'twitter_card_linux.png',
 }
 information = {
 	'tool': 'Linux CLI',

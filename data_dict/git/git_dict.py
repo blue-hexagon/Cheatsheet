@@ -13,7 +13,7 @@ meta = {
 	'title': 'Git Cheatsheet',
 	'description': 'Branches · Clean · Tags · Logs · Stashes',
 	'keywords': 'git, vcs, github, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/git/',
+	'canonical': 'https://www.cheatsheet.wtf/Git/',
 
 	'opengraph_title': 'Git Cheatsheet',
 	'opengraph_description': 'Branches · Clean · Tags · Logs · Stashes',

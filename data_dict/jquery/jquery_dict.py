@@ -13,7 +13,7 @@ meta = {
 	'title': 'JQuery Cheatsheet',
 	'description': 'Selectors · Ajax · Traversing · Effects · CSS Attributes · Utilities · Manipulation',
 	'keywords': 'jquery, javascript, typescript, js, vanilla js, frontend, framework, toolset, cheatsheet, cheat sheet',
-	'canonical' : 'https://www.cheatsheet.wtf/jquery/',
+	'canonical' : 'https://www.cheatsheet.wtf/JQuery/',
 
 	'opengraph_title': 'JQuery Cheatsheet',
 	'opengraph_description': 'Selectors · Ajax · Traversing · Effects · CSS Attributes · Utilities · Manipulation',

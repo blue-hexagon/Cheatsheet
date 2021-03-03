@@ -13,7 +13,7 @@ meta = {
 	'title': 'OSINT Cheatsheet',
 	'description': 'Tools · Archived Information · Search Engines · Terminology · Search Operators',
 	'keywords': 'osint, open source intelligence, sigint, humint, socmint, opsec, investigation, tools, online, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/osint/',
+	'canonical': 'https://www.cheatsheet.wtf/OSINT/',
 
 	'opengraph_title': 'OSINT Cheatsheet',
 	'opengraph_description': 'Tools · Archived Information · Search Engines · Terminology · Search Operators',

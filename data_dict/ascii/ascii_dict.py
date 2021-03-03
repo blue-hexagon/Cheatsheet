@@ -13,7 +13,7 @@ meta = {
 	'title': 'ASCII Cheatsheet',
 	'description': 'Extension · Symbol · HTML Entity · Name · Hex · Decimal · Octal · Entity Names',
 	'keywords': 'ASCII, characters, cheatsheet, cheat sheet, US-ASCII, 8-bit, html entity',
-	'canonical': 'https://www.cheatsheet.wtf/ascii/',
+	'canonical': 'https://www.cheatsheet.wtf/ASCII/',
 
 	'opengraph_title': 'ASCII Cheatsheet',
 	'opengraph_description': 'Extension · Symbol · HTML Entity · Name · Hex · Decimal · Octal · Entity Names',

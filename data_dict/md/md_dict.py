@@ -13,7 +13,7 @@ meta = {
 	'title': 'Markdown Cheatsheet',
 	'description': 'Headings · Emphasis · Links · Blockquotes · Code · Lists',
 	'keywords': 'markdown, markup, md, readme.md, syntax, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/markdown/',
+	'canonical': 'https://www.cheatsheet.wtf/Markdown/',
 
 	'opengraph_title': 'Markdown Cheatsheet',
 	'opengraph_description': 'Headings · Emphasis · Links · Blockquotes · Code · Lists',

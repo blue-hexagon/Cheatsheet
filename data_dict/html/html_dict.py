@@ -13,7 +13,7 @@ meta = {
 	'title': 'HTML5 Cheatsheet',
 	'description': 'Forms & Input · Images · Links · Tables · Lists · Styles & Semantics · Meta Info · Formatting',
 	'keywords': 'html, html5, markup, language, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/html5/',
+	'canonical': 'https://www.cheatsheet.wtf/HTML5/',
 
 	'opengraph_title': 'HTML5 Cheatsheet',
 	'opengraph_description': 'Forms & Input · Images · Links · Tables · Lists · Styles & Semantics · Meta Info · Formatting',

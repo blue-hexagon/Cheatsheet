@@ -13,7 +13,7 @@ meta = {
 	'title': 'Vim Cheatsheet',
 	'description': 'Insert Mode · Visual Mode · Tabs · Cut & Paste · Marks & Positions · Registers · Exiting · Diff · Indent Text · Editing · Macros',
 	'keywords': 'vim, vi improved, how to exit vim, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/vim/',
+	'canonical': 'https://www.cheatsheet.wtf/Vim/',
 
 	'opengraph_title': 'Vim Cheatsheet',
 	'opengraph_description': 'Insert Mode · Visual Mode · Tabs · Cut & Paste · Marks & Positions · Registers · Exiting · Diff · Indent Text · Editing · Macros',

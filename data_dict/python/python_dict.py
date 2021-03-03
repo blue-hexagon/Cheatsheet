@@ -13,7 +13,7 @@ meta = {
 	'title': 'Python3 Cheatsheet',
 	'description': 'String Methods · Random Module · File Methods · List Methods · Sets · Dictionary Methods · Math · Powers & Logarithms · Trigonometry · File Attributes · Numbers',
 	'keywords': 'python2, python3, python, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/python/',
+	'canonical': 'https://www.cheatsheet.wtf/Python/',
 
 	'opengraph_title': 'Python Cheatsheet',
 	'opengraph_description': 'String Methods · Random Module · File Methods · List Methods · Sets · Dictionary Methods · Math · Powers & Logarithms · Trigonometry · File Attributes · Numbers',

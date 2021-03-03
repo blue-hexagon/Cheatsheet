@@ -13,7 +13,7 @@ meta = {
 	'title': 'HTTP Status Codes',
 	'description': '',
 	'keywords': 'http, http2, http3, status codes, status code, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/http/',
+	'canonical': 'https://www.cheatsheet.wtf/HTTP/',
 
 	'opengraph_title': 'HTTP Status Codes',
 	'opengraph_description': '',

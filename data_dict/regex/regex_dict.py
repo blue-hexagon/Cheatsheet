@@ -13,7 +13,7 @@ meta = {
 	'title': 'RegEx Cheatsheet',
 	'description': 'Assertions · Quantifiers · Escape Sequences · Groups & Ranges · Pattern Modifiers · String Replacement · Special Characters · Anchors · Character Classes · POSIX · PCRE · ERE · BRE',
 	'keywords': 'regex, regular expressions, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/regularexpressions/',
+	'canonical': 'https://www.cheatsheet.wtf/RegularExpressions/',
 
 	'opengraph_title': 'RegEx Cheatsheet',
 	'opengraph_description': 'Assertions · Quantifiers · Escape Sequences · Groups & Ranges · Pattern Modifiers · String Replacement · Special Characters · Anchors · Character Classes · POSIX · PCRE · ERE · BRE',

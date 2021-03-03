@@ -13,7 +13,7 @@ meta = {
 	'title': 'TCP/UDP Ports Collection',
 	'description': 'TCP · UDP · Well-known Ports · Ephemeal Ports',
 	'keywords': 'ports, port, portnumber, portnumbers, network ports, tcp, udp, cheatsheet, cheat sheet',
-	'canonical' : 'https://www.cheatsheet.wtf/portnumbers/',
+	'canonical' : 'https://www.cheatsheet.wtf/PortNumbers/',
 
 	'opengraph_title': 'TCP/UDP Ports Collection',
 	'opengraph_description': 'TCP · UDP · Well-known Ports · Ephemeal Ports',

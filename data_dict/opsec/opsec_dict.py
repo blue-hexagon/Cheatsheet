@@ -13,7 +13,7 @@ meta = {
 	'title': 'OpSec Cheatsheet',
 	'description': 'Phishing · SSH · Social Engineering · Password Protection · Darknets · VPN · Tracking · International Agreements',
 	'keywords': 'opsec, security, operational security, intelligence, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/opsec/',
+	'canonical': 'https://www.cheatsheet.wtf/OpSec/',
 
 	'opengraph_title': 'OpSec Cheatsheet',
 	'opengraph_description': 'Phishing · SSH · Social Engineering · Password Protection · Darknets · VPN · Tracking · International Agreements',

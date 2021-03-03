@@ -14,7 +14,7 @@ meta = {
 	'title': 'Bootstrap4 Cheatsheet',
 	'description': 'Templates · Break Points · Colors · Buttons · Floats · Typography · Lists · Tables · Images',
 	'keywords': 'frontend framework, css, css framework, cheatsheet, cheat sheet',
-	'canonical': 'https://www.cheatsheet.wtf/bootstrap4/',
+	'canonical': 'https://www.cheatsheet.wtf/Bootstrap4/',
 
 	'opengraph_title': 'Bootstrap4 Cheatsheet',
 	'opengraph_description': 'Templates · Break Points · Colors · Buttons · Floats · Typography · Lists · Tables · Images',
