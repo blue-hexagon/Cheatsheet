@@ -74,7 +74,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('ae5629debca54de98fe4d93355a90ef4')[0]),
 					'flag': Markup(helper.set_entry_command_string('yum list updates')),
-					'description': Markup('Display list of updated software and security fixes'),
+					'description': [
+						Markup('Display list of updated software and security fixes'),
+					],
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
@@ -101,7 +103,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('637023eae1e44f09bf458096b50c51f7')[0]),
 					'flag': Markup(helper.set_entry_command_string('pacman -Syu pkg')),
-					'description': Markup('Install pkg and update the package list'),
+					'description': [
+						Markup('Install pkg and update the package list'),
+					],
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
@@ -125,7 +129,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('39f779066e6d46d385b310b419a37933')[0]),
 					'flag': Markup(helper.set_entry_command_string('apt-get install pkg')),
-					'description': Markup('Install pkg'),
+					'description': [
+						Markup('Install pkg'),
+					],
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
@@ -149,7 +155,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('9f9dea01192c44a4a41bc9eba0d9536f')[0]),
 					'flag': Markup(helper.set_entry_command_string('aptitude install pkg')),
-					'description': Markup('Install pkg'),
+					'description': [
+						Markup('Install pkg'),
+					],
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
@@ -174,7 +182,9 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('8341aabf7d0141698e5afd1c25c438a9')[0]),
 					'flag': Markup(helper.set_entry_command_string('rpm -i pkg')),
 					# 'flag_alt': Markup('rpm --install pkg'),
-					'description': Markup('Installs pkg'),
+					'description': [
+						Markup('Installs pkg'),
+					],
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
@@ -198,7 +208,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('165c0ef83add4f4fba376ac8a110967a')[0]),
 					'flag': Markup(helper.set_entry_command_string('dnf install pkg')),
-					'description': Markup('Install pkg'),
+					'description': [
+						Markup('Install pkg'),
+					],
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
@@ -223,7 +235,9 @@ cheatsheet = [
 					'static_red': Markup(helper.set_entry_folder('a3ed754d95e448cfb615248653024924')[0]),
 					'flag': Markup(helper.set_entry_command_string('zypper install pkg')),
 					# 'flag_alt': Markup('zypper in pkg'),
-					'description': Markup('Install pkg'),
+					'description': [
+						Markup('Install pkg'),
+					],
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
@@ -247,7 +261,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('f47f6631760e4e3a95539001134abfdf')[0]),
 					'flag': Markup(helper.set_entry_command_string('npm install pkg')),
-					'description': Markup('Install pkg'),
+					'description': [
+						Markup('Install pkg'),
+					],
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),
@@ -271,7 +287,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('0e730f82c8c44e83aea595508800b0ee')[0]),
 					'flag': Markup(helper.set_entry_command_string('pip install pkg')),
-					'description': Markup('Install pkg'),
+					'description': [
+						Markup('Install pkg'),
+					],
 					'video': Markup(''),
 					'example': helper.example_path(),
 					'uuid': helper.get_uuid(),

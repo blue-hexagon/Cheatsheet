@@ -68,7 +68,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('e8646f33a6ec4ca9aa137ae674d2ca69')[0]),
 					'flag': helper.set_entry_command_string("git branch"),
-					'description': Markup('List all local branches'),
+					'description': [
+						Markup('List all local branches'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -77,7 +79,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('7c2cd123c87a498fb58d4fdde0312a70')[0]),
 					'flag': helper.set_entry_command_string('git branch -a'),
-					'description': Markup('List remote and local branches'),
+					'description': [
+						Markup('List remote and local branches'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -86,7 +90,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('1e90a08c462b4e55a97dc0b7ec6b5ac6')[0]),
 					'flag': helper.set_entry_command_string('git checkout -b branch_name'),
-					'description': Markup('Create a local branch and switch to it'),
+					'description': [
+						Markup('Create a local branch and switch to it'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -95,7 +101,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('e433d23123c5424c829f246e5b68d48c')[0]),
 					'flag': helper.set_entry_command_string('git checkout branch_name'),
-					'description': Markup('Switch to an existing branch'),
+					'description': [
+						Markup('Switch to an existing branch'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -104,7 +112,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('286876fca7d24bd6a82afd694162f604')[0]),
 					'flag': helper.set_entry_command_string('git push origin branch_name'),
-					'description': Markup('Push branch to remote'),
+					'description': [
+						Markup('Push branch to remote'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -113,7 +123,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('89a2f1e0bc8c40af805d37bb9acc28ed')[0]),
 					'flag': helper.set_entry_command_string('git branch -m new_name'),
-					'description': Markup('Rename current branch'),
+					'description': [
+						Markup('Rename current branch'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -122,7 +134,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('d526e67ffde341a8b9d8ad07a48f0370')[0]),
 					'flag': helper.set_entry_command_string('git branch -d branch_name'),
-					'description': Markup('Delete a local branch'),
+					'description': [
+						Markup('Delete a local branch'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -131,7 +145,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('779f3523414d479b846621528ec67a2c')[0]),
 					'flag': helper.set_entry_command_string('git push origin :branch_name'),
-					'description': Markup('Delete a remote branch'),
+					'description': [
+						Markup('Delete a remote branch'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -156,7 +172,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('ca8ef8dcbe424bd3b5bb33e01ed4a790')[0]),
 					'flag': helper.set_entry_command_string('git log --oneline'),
-					'description': Markup('Show commit history in single lines'),
+					'description': [
+						Markup('Show commit history in single lines'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -165,7 +183,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('b5b1b2fd50a445fe827a9aa89437527a')[0]),
 					'flag': helper.set_entry_command_string('git log -2'),
-					'description': Markup('Show commit history for last N commits'),
+					'description': [
+						Markup('Show commit history for last N commits'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -174,7 +194,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('753daf3ee091421795cab7c063fe3c3b')[0]),
 					'flag': helper.set_entry_command_string('git log -p -2'),
-					'description': Markup('Show commit history for last N commits with diff'),
+					'description': [
+						Markup('Show commit history for last N commits with diff'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -183,7 +205,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('7b9a56bb34a94d15a4beafa05a9eda6d')[0]),
 					'flag': helper.set_entry_command_string('git diff'),
-					'description': Markup('Show all local file changes in the working tree'),
+					'description': [
+						Markup('Show all local file changes in the working tree'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -192,7 +216,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('99003de4c28043a99e11e59805aac85e')[0]),
 					'flag': helper.set_entry_command_string('git diff myfile'),
-					'description': Markup('Show changes made to a file'),
+					'description': [
+						Markup('Show changes made to a file'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -201,7 +227,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('92624b9bef634d349d95822aba9e6aaa')[0]),
 					'flag': helper.set_entry_command_string('git blame myfile'),
-					'description': Markup('Show who changed what & when in a file'),
+					'description': [
+						Markup('Show who changed what & when in a file'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -210,7 +238,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('9e91c651a37d40509b9cc2bc993b328c')[0]),
 					'flag': helper.set_entry_command_string('git remote show origin'),
-					'description': Markup('Show remote branches and their mapping to local'),
+					'description': [
+						Markup('Show remote branches and their mapping to local'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -235,7 +265,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('50141aed87a249a58dea6649babe39fc')[0]),
 					'flag': helper.set_entry_command_string('git clean -f'),
-					'description': Markup('Delete all untracked files'),
+					'description': [
+						Markup('Delete all untracked files'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -244,7 +276,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('2ecbb746fdf445cd9e1c6ad1e02e71fc')[0]),
 					'flag': helper.set_entry_command_string('git clean -df'),
-					'description': Markup('Delete all untracked files and directories'),
+					'description': [
+						Markup('Delete all untracked files and directories'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -253,7 +287,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('25b2b93f535142cd9913904ec8de9bd9')[0]),
 					'flag': helper.set_entry_command_string('git checkout -- .'),
-					'description': Markup('Undo local modifications to all files'),
+					'description': [
+						Markup('Undo local modifications to all files'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -262,7 +298,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('7473de76a1d943a1b3b6209ce04bb529')[0]),
 					'flag': helper.set_entry_command_string('git reset HEAD myfile'),
-					'description': Markup('Unstage a file'),
+					'description': [
+						Markup('Unstage a file'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -287,7 +325,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('44bfa2cf107543c486c748557e6a13dd')[0]),
 					'flag': helper.set_entry_command_string('git pull --tags'),
-					'description': Markup('Get remote tags'),
+					'description': [
+						Markup('Get remote tags'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -296,7 +336,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('18b5df67353e4ce79c3b8b852dbc2eda')[0]),
 					'flag': helper.set_entry_command_string('git checkout tag_name'),
-					'description': Markup('Switch to an existing tag'),
+					'description': [
+						Markup('Switch to an existing tag'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -305,7 +347,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('a85eefeafc284bdbbd2e6c2c80f9285b')[0]),
 					'flag': helper.set_entry_command_string('git tag'),
-					'description': Markup('List all tags'),
+					'description': [
+						Markup('List all tags'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -314,7 +358,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('8f09ed8b1aa34e159efccdf108ed273c')[0]),
 					'flag': helper.set_entry_command_string('git tag -a tag_name -m "tag message"'),
-					'description': Markup('Create a new tag'),
+					'description': [
+						Markup('Create a new tag'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -323,7 +369,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('6106ea045a974d17a38d742a9fabe973')[0]),
 					'flag': helper.set_entry_command_string('git push --tags'),
-					'description': Markup('Push all tags to remote repo'),
+					'description': [
+						Markup('Push all tags to remote repo'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -348,7 +396,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('e797dbd7fe364c7eaf07f00619b33859')[0]),
 					'flag': helper.set_entry_command_string('git stash save "stash name" && git stash'),
-					'description': Markup('Save changes to a stash'),
+					'description': [
+						Markup('Save changes to a stash'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -357,7 +407,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('18a8bfe98f6e4c52be9e862b4a6f533c')[0]),
 					'flag': helper.set_entry_command_string('git stash list'),
-					'description': Markup('List all stashes'),
+					'description': [
+						Markup('List all stashes'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),
@@ -366,7 +418,9 @@ cheatsheet = [
 				{
 					'static_red': Markup(helper.set_entry_folder('aca472a93b454fd6a8a74c9048a249c2')[0]),
 					'flag': helper.set_entry_command_string('git stash pop'),
-					'description': Markup('Apply a stash and delete it from stash list'),
+					'description': [
+						Markup('Apply a stash and delete it from stash list'),
+					],
 					'example': helper.example_path(),
 					'ext_link': '',
 					'video': Markup(''),

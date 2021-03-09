@@ -299,5 +299,5 @@ affiliate_products = [
 	''
 ]
 licensing = [
-	Markup('')
+	Markup('Heavily inspired by <a href="https://s3.us-east-2.amazonaws.com/prettyprinted/flask_cheatsheet.pdf">Pretty Printed Flask Cheatsheet</a>')
 ]
