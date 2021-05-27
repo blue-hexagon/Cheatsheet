@@ -1,29 +1,6 @@
 # CheatSheet.Wtf
 This repository contain cheatsheets and examples for the website www.Cheatsheet.Wtf
-## Contributing
-### Writing Examples
-Writing an example is fast and easy: [refer to this guide](www.Cheatsheet.Wtf/contribute/create/example/).
 
-### Improving Cheatsheets
-To correct an error, misspelling or a wrong fact, you can open the project in Gitpod and write the fix.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/smokingcuke/cheatsheet)
-### Writing a Cheatsheet
-To contribute a cheatsheet on a topic, use the format below and I will do some regex to translate it. 
-Submit it in <kbd>/cheatsheet_requests/</kbd>
-
-```
-Cheatsheet: Name of Cheatsheet
-
-# Heading
-## Subheading
-keyword1 : explanation1
-keyword2 : explanation2
-
-and so on.
-```
-
-
-### Request a Cheatsheet
-Submit an issue.
+## Contributing(!)
+Please don't submit examples (yet) - I'm working on a rewrite in Django (with a database backend) where users can submit, create, edit and delete cheatsheets like the ones you see on https://www.cheatsheet.wtf
 
